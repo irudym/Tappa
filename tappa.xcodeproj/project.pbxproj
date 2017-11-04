@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78AE83621FADEB5D003B1A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE83611FADEB5D003B1A34 /* AppDelegate.m */; };
+		78AE83651FADEB5D003B1A34 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE83641FADEB5D003B1A34 /* GameViewController.m */; };
+		78AE83681FADEB5D003B1A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AE83661FADEB5D003B1A34 /* Main.storyboard */; };
+		78AE836B1FADEB5D003B1A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AE83691FADEB5D003B1A34 /* LaunchScreen.storyboard */; };
+		78AE836E1FADEB5D003B1A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE836D1FADEB5D003B1A34 /* main.m */; };
+		78AE83771FADEB5D003B1A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE83761FADEB5D003B1A34 /* AppDelegate.m */; };
+		78AE837A1FADEB5D003B1A34 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE83791FADEB5D003B1A34 /* GameViewController.m */; };
+		78AE837D1FADEB5D003B1A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AE837B1FADEB5D003B1A34 /* Main.storyboard */; };
+		78AE83801FADEB5D003B1A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE837F1FADEB5D003B1A34 /* main.m */; };
+		78AE83811FADEB5D003B1A34 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78AE83541FADEB5D003B1A34 /* Actions.sks */; };
+		78AE83821FADEB5D003B1A34 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78AE83541FADEB5D003B1A34 /* Actions.sks */; };
+		78AE83831FADEB5D003B1A34 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78AE83551FADEB5D003B1A34 /* GameScene.sks */; };
+		78AE83841FADEB5D003B1A34 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78AE83551FADEB5D003B1A34 /* GameScene.sks */; };
+		78AE83851FADEB5D003B1A34 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE83571FADEB5D003B1A34 /* GameScene.m */; };
+		78AE83861FADEB5D003B1A34 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE83571FADEB5D003B1A34 /* GameScene.m */; };
+		78AE83871FADEB5D003B1A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78AE83581FADEB5D003B1A34 /* Assets.xcassets */; };
+		78AE83881FADEB5D003B1A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78AE83581FADEB5D003B1A34 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78AE83541FADEB5D003B1A34 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		78AE83551FADEB5D003B1A34 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		78AE83561FADEB5D003B1A34 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		78AE83571FADEB5D003B1A34 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		78AE83581FADEB5D003B1A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78AE835D1FADEB5D003B1A34 /* tappa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tappa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AE83601FADEB5D003B1A34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78AE83611FADEB5D003B1A34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78AE83631FADEB5D003B1A34 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		78AE83641FADEB5D003B1A34 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		78AE83671FADEB5D003B1A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78AE836A1FADEB5D003B1A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78AE836C1FADEB5D003B1A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78AE836D1FADEB5D003B1A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78AE83731FADEB5D003B1A34 /* tappa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tappa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AE83751FADEB5D003B1A34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78AE83761FADEB5D003B1A34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78AE83781FADEB5D003B1A34 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		78AE83791FADEB5D003B1A34 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		78AE837C1FADEB5D003B1A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78AE837E1FADEB5D003B1A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78AE837F1FADEB5D003B1A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78AE835A1FADEB5D003B1A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AE83701FADEB5D003B1A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78AE834E1FADEB5C003B1A34 = {
+			isa = PBXGroup;
+			children = (
+				78AE83531FADEB5D003B1A34 /* tappa Shared */,
+				78AE835F1FADEB5D003B1A34 /* tappa iOS */,
+				78AE83741FADEB5D003B1A34 /* tappa macOS */,
+				78AE835E1FADEB5D003B1A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78AE83531FADEB5D003B1A34 /* tappa Shared */ = {
+			isa = PBXGroup;
+			children = (
+				78AE83541FADEB5D003B1A34 /* Actions.sks */,
+				78AE83551FADEB5D003B1A34 /* GameScene.sks */,
+				78AE83561FADEB5D003B1A34 /* GameScene.h */,
+				78AE83571FADEB5D003B1A34 /* GameScene.m */,
+				78AE83581FADEB5D003B1A34 /* Assets.xcassets */,
+			);
+			path = "tappa Shared";
+			sourceTree = "<group>";
+		};
+		78AE835E1FADEB5D003B1A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78AE835D1FADEB5D003B1A34 /* tappa.app */,
+				78AE83731FADEB5D003B1A34 /* tappa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78AE835F1FADEB5D003B1A34 /* tappa iOS */ = {
+			isa = PBXGroup;
+			children = (
+				78AE83601FADEB5D003B1A34 /* AppDelegate.h */,
+				78AE83611FADEB5D003B1A34 /* AppDelegate.m */,
+				78AE83631FADEB5D003B1A34 /* GameViewController.h */,
+				78AE83641FADEB5D003B1A34 /* GameViewController.m */,
+				78AE83661FADEB5D003B1A34 /* Main.storyboard */,
+				78AE83691FADEB5D003B1A34 /* LaunchScreen.storyboard */,
+				78AE836C1FADEB5D003B1A34 /* Info.plist */,
+				78AE836D1FADEB5D003B1A34 /* main.m */,
+			);
+			path = "tappa iOS";
+			sourceTree = "<group>";
+		};
+		78AE83741FADEB5D003B1A34 /* tappa macOS */ = {
+			isa = PBXGroup;
+			children = (
+				78AE83751FADEB5D003B1A34 /* AppDelegate.h */,
+				78AE83761FADEB5D003B1A34 /* AppDelegate.m */,
+				78AE83781FADEB5D003B1A34 /* GameViewController.h */,
+				78AE83791FADEB5D003B1A34 /* GameViewController.m */,
+				78AE837B1FADEB5D003B1A34 /* Main.storyboard */,
+				78AE837E1FADEB5D003B1A34 /* Info.plist */,
+				78AE837F1FADEB5D003B1A34 /* main.m */,
+			);
+			path = "tappa macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78AE835C1FADEB5D003B1A34 /* tappa iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78AE838B1FADEB5D003B1A34 /* Build configuration list for PBXNativeTarget "tappa iOS" */;
+			buildPhases = (
+				78AE83591FADEB5D003B1A34 /* Sources */,
+				78AE835A1FADEB5D003B1A34 /* Frameworks */,
+				78AE835B1FADEB5D003B1A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tappa iOS";
+			productName = "tappa iOS";
+			productReference = 78AE835D1FADEB5D003B1A34 /* tappa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78AE83721FADEB5D003B1A34 /* tappa macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78AE838E1FADEB5D003B1A34 /* Build configuration list for PBXNativeTarget "tappa macOS" */;
+			buildPhases = (
+				78AE836F1FADEB5D003B1A34 /* Sources */,
+				78AE83701FADEB5D003B1A34 /* Frameworks */,
+				78AE83711FADEB5D003B1A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tappa macOS";
+			productName = "tappa macOS";
+			productReference = 78AE83731FADEB5D003B1A34 /* tappa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78AE834F1FADEB5C003B1A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Igor Rudym";
+				TargetAttributes = {
+					78AE835C1FADEB5D003B1A34 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					78AE83721FADEB5D003B1A34 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 78AE83521FADEB5C003B1A34 /* Build configuration list for PBXProject "tappa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78AE834E1FADEB5C003B1A34;
+			productRefGroup = 78AE835E1FADEB5D003B1A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78AE835C1FADEB5D003B1A34 /* tappa iOS */,
+				78AE83721FADEB5D003B1A34 /* tappa macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78AE835B1FADEB5D003B1A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AE83831FADEB5D003B1A34 /* GameScene.sks in Resources */,
+				78AE83681FADEB5D003B1A34 /* Main.storyboard in Resources */,
+				78AE83811FADEB5D003B1A34 /* Actions.sks in Resources */,
+				78AE836B1FADEB5D003B1A34 /* LaunchScreen.storyboard in Resources */,
+				78AE83871FADEB5D003B1A34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AE83711FADEB5D003B1A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AE837D1FADEB5D003B1A34 /* Main.storyboard in Resources */,
+				78AE83841FADEB5D003B1A34 /* GameScene.sks in Resources */,
+				78AE83881FADEB5D003B1A34 /* Assets.xcassets in Resources */,
+				78AE83821FADEB5D003B1A34 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78AE83591FADEB5D003B1A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AE83651FADEB5D003B1A34 /* GameViewController.m in Sources */,
+				78AE836E1FADEB5D003B1A34 /* main.m in Sources */,
+				78AE83851FADEB5D003B1A34 /* GameScene.m in Sources */,
+				78AE83621FADEB5D003B1A34 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AE836F1FADEB5D003B1A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AE837A1FADEB5D003B1A34 /* GameViewController.m in Sources */,
+				78AE83801FADEB5D003B1A34 /* main.m in Sources */,
+				78AE83861FADEB5D003B1A34 /* GameScene.m in Sources */,
+				78AE83771FADEB5D003B1A34 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78AE83661FADEB5D003B1A34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78AE83671FADEB5D003B1A34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78AE83691FADEB5D003B1A34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78AE836A1FADEB5D003B1A34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		78AE837B1FADEB5D003B1A34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78AE837C1FADEB5D003B1A34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78AE83891FADEB5D003B1A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		78AE838A1FADEB5D003B1A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		78AE838C1FADEB5D003B1A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T854R2JZ33;
+				INFOPLIST_FILE = "tappa iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.fennect.tappa;
+				PRODUCT_NAME = tappa;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78AE838D1FADEB5D003B1A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T854R2JZ33;
+				INFOPLIST_FILE = "tappa iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.fennect.tappa;
+				PRODUCT_NAME = tappa;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78AE838F1FADEB5D003B1A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T854R2JZ33;
+				INFOPLIST_FILE = "tappa macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.fennect.tappa;
+				PRODUCT_NAME = tappa;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		78AE83901FADEB5D003B1A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T854R2JZ33;
+				INFOPLIST_FILE = "tappa macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.fennect.tappa;
+				PRODUCT_NAME = tappa;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78AE83521FADEB5C003B1A34 /* Build configuration list for PBXProject "tappa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78AE83891FADEB5D003B1A34 /* Debug */,
+				78AE838A1FADEB5D003B1A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78AE838B1FADEB5D003B1A34 /* Build configuration list for PBXNativeTarget "tappa iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78AE838C1FADEB5D003B1A34 /* Debug */,
+				78AE838D1FADEB5D003B1A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78AE838E1FADEB5D003B1A34 /* Build configuration list for PBXNativeTarget "tappa macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78AE838F1FADEB5D003B1A34 /* Debug */,
+				78AE83901FADEB5D003B1A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78AE834F1FADEB5C003B1A34 /* Project object */;
+}
