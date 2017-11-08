@@ -1,23 +1,24 @@
 //
-//  GameScene.m
-//  tappa Shared
+//  BugsScene.m
+//  tappa
 //
-//  Created by Igor on 04/11/2017.
+//  Created by Igor on 05/11/2017.
 //  Copyright © 2017 Igor Rudym. All rights reserved.
 //
 
-#import "GameScene.h"
+#import "BugsScene.h"
+#import "../game/states/TPRunState.h"
 
-@implementation GameScene {
-    SKShapeNode *_spinnyNode;
-    SKLabelNode *_label;
-    NSArray* bugs;
+@implementation BugsScene
+
+{
+    TPBug *bug1, *bug2;
+    NSMutableArray* bugs;
 }
 
-+ (GameScene *)newGameScene {
-    /*
++ (BugsScene *)newGameScene {
     // Load 'BugsScene.sks' as an SKScene.
-    GameScene *scene = (GameScene *)[SKScene nodeWithFileNamed:@"BugsScene"];
+    BugsScene *scene = (BugsScene *)[SKScene nodeWithFileNamed:@"BugsScene"];
     if (!scene) {
         NSLog(@"Failed to load BugsScene.sks");
         abort();
@@ -25,33 +26,43 @@
     
     // Set the scale mode to scale to fit the window
     scene.scaleMode = SKSceneScaleModeAspectFill;
-    
     return scene;
-     */
-    return nil;
 }
 
 - (void)setUpScene {
     
+    NSLog(@"BugScene: setUpScene");
+    
     //load textures
-    /*
     [TPSharedTextureAtlas loadAtlas:@"Bugs"];
     
-    green_bug = [[TPBug alloc] initWithName:@"green-bug" AndPosition:CGPointMake(100, 100)];
-    [green_bug setAngle:-45*3.1427/180];
-    [self addChild:green_bug];
+    bugs = [NSMutableArray array];
     
-    TPBug *bug2 = [[TPBug alloc] initWithName:@"green-bug" AndPosition:CGPointMake(-100, 0)];
-    [bug2 setAngle:-90*3.1427/180];
+    bug1 = [[TPBug alloc] initWithName:@"green-bug" AndPosition:CGPointMake(100, 100)];
+    [bug1 setAngle:-90*3.1427/180];
+    [[bug1 stateMachine] pushState:[TPRunState createState]];
+    [self addChild:bug1];
+    
+    bug2 = [[TPBug alloc] initWithName:@"green-bug" AndPosition:CGPointMake(-100, 0)];
+    [bug2 setAngle:-45*3.1427/180];
+    [[bug2 stateMachine] pushState:[TPRunState createState]];
     [self addChild:bug2];
+    
+    TPBug* bug3 = [[TPBug alloc] initWithName:@"green-bug" AndPosition:CGPointMake(0, 0)];
+    [bug3 setAngle:-85*3.1427/180];
+    [[bug3 stateMachine] pushState:[TPRunState createState]];
+    [self addChild:bug3];
+    
+    [bugs addObjectsFromArray:@[bug1, bug2, bug3]];
+    
     
     // Get label node from scene and store it for use later
     //_label = (SKLabelNode *)[self childNodeWithName:@"//helloLabel"];
     //_label.alpha = 0.0;
     //[_label runAction:[SKAction fadeInWithDuration:2.0]];
-    */
     
-
+    
+    
 #if TARGET_OS_WATCH
 #endif
     
@@ -67,15 +78,13 @@
 }
 #endif
 
-- (void)makeSpinnyAtPoint:(CGPoint)pos color:(SKColor *)color {
-    SKShapeNode *spinny = [_spinnyNode copy];
-    spinny.position = pos;
-    spinny.strokeColor = color;
-    [self addChild:spinny];
-}
 
 -(void)update:(CFTimeInterval)currentTime {
     // Called before each frame is rendered
+    for(TPBug* bug in bugs) {
+        [bug update];
+        if (bug.position.x > 400 || bug.position.y > 300 || bug.position.y < -300 || bug.position.x < -400) [bug handleEvent:[TPEvent createEventByType:EVENT_OVER_EDGE]];
+    }
 }
 
 #if TARGET_OS_IOS || TARGET_OS_TV
@@ -110,8 +119,14 @@
 
 - (void)mouseDown:(NSEvent *)event {
     //[_label runAction:[SKAction actionNamed:@"Pulse"] withKey:@"fadeInOut"];
-    
     //[self makeSpinnyAtPoint:[event locationInNode:self] color:[SKColor greenColor]];
+    
+    //check if click in node
+    SKNode *node = [self nodeAtPoint:[event locationInNode:self]];
+    if (node != nil) {
+        TPBug* bug = (TPBug*)node;
+        [bug handleEvent:[TPEvent createEventByType:EVENT_TAP]];
+    }
 }
 
 - (void)mouseDragged:(NSEvent *)event {

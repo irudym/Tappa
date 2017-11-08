@@ -7,14 +7,15 @@
 //
 
 #import "GameViewController.h"
-#import "GameScene.h"
+#import "BugsScene.h"
 
 @implementation GameViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    GameScene *sceneNode = [GameScene newGameScene];
+    //GameScene *sceneNode = [GameScene newGameScene];
+    BugsScene *sceneNode = [BugsScene newGameScene];
     
     // Present the scene
     SKView *skView = (SKView *)self.view;
