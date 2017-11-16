@@ -13,7 +13,7 @@
 @interface TPObject : SKSpriteNode
 
 @property CGVector currentDirection;
-@property CGFloat objectSpeed;
+@property CGFloat speed;
 @property BOOL deadMark;
 
 //stateMachine

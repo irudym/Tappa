@@ -11,7 +11,7 @@
 @implementation TPObject
 
 @synthesize currentDirection;
-@synthesize objectSpeed;
+@synthesize speed;
 @synthesize stateMachine;
 
 /*
@@ -65,6 +65,7 @@
     return self.deadMark;
 }
 
+//DEPRECATED
 -(void)fixPosition {
     NSLog(@"TPObject: fix position from (%f,%f)", self.position.x, self.position.y);
     NSLog(@"TPObject: fix position with direction: (%f,%f)", currentDirection.dx, currentDirection.dy);

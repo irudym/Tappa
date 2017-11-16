@@ -13,6 +13,8 @@
 		784817781FAF40860021D0FA /* BugsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 784817761FAF40860021D0FA /* BugsScene.m */; };
 		7848177B1FAF49B60021D0FA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7848177A1FAF448E0021D0FA /* GameScene.m */; };
 		7848177C1FAF49B60021D0FA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7848177A1FAF448E0021D0FA /* GameScene.m */; };
+		788018A11FBD910C00011A18 /* DebugNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 788018A01FBD910C00011A18 /* DebugNode.m */; };
+		788018A21FBD910C00011A18 /* DebugNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 788018A01FBD910C00011A18 /* DebugNode.m */; };
 		78AE83621FADEB5D003B1A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE83611FADEB5D003B1A34 /* AppDelegate.m */; };
 		78AE83651FADEB5D003B1A34 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE83641FADEB5D003B1A34 /* GameViewController.m */; };
 		78AE83681FADEB5D003B1A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AE83661FADEB5D003B1A34 /* Main.storyboard */; };
@@ -56,6 +58,8 @@
 		784817761FAF40860021D0FA /* BugsScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugsScene.m; sourceTree = "<group>"; };
 		784817791FAF448E0021D0FA /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		7848177A1FAF448E0021D0FA /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		7880189F1FBD910C00011A18 /* DebugNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugNode.h; sourceTree = "<group>"; };
+		788018A01FBD910C00011A18 /* DebugNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugNode.m; sourceTree = "<group>"; };
 		78AE83541FADEB5D003B1A34 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		78AE83551FADEB5D003B1A34 /* BugsScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BugsScene.sks; sourceTree = "<group>"; };
 		78AE83581FADEB5D003B1A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -203,6 +207,8 @@
 				78CF8D121FB0E71F00233F18 /* TPObject.m */,
 				78CF8D151FB0E88600233F18 /* TPEvent.h */,
 				78CF8D161FB0E88700233F18 /* TPEvent.m */,
+				7880189F1FBD910C00011A18 /* DebugNode.h */,
+				788018A01FBD910C00011A18 /* DebugNode.m */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -360,6 +366,7 @@
 				78CF8D131FB0E71F00233F18 /* TPObject.m in Sources */,
 				78CF8D2B1FB2068C00233F18 /* Stack.m in Sources */,
 				78CF8D2F1FB214F800233F18 /* TPDieState.m in Sources */,
+				788018A11FBD910C00011A18 /* DebugNode.m in Sources */,
 				78AE83651FADEB5D003B1A34 /* GameViewController.m in Sources */,
 				78AE836E1FADEB5D003B1A34 /* main.m in Sources */,
 				784817771FAF40860021D0FA /* BugsScene.m in Sources */,
@@ -382,6 +389,7 @@
 				78CF8D141FB0E71F00233F18 /* TPObject.m in Sources */,
 				78CF8D2C1FB2068C00233F18 /* Stack.m in Sources */,
 				78CF8D301FB214F800233F18 /* TPDieState.m in Sources */,
+				788018A21FBD910C00011A18 /* DebugNode.m in Sources */,
 				78AE837A1FADEB5D003B1A34 /* GameViewController.m in Sources */,
 				78AE83801FADEB5D003B1A34 /* main.m in Sources */,
 				784817781FAF40860021D0FA /* BugsScene.m in Sources */,

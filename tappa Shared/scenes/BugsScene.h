@@ -15,4 +15,6 @@
 + (BugsScene *)newGameScene;
 - (void)setUpScene;
 
+@property NSMutableArray *sceneObjects;
+
 @end
