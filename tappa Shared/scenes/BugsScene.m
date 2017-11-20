@@ -41,8 +41,8 @@
     
     NSLog(@"BugScene: setUpScene");
     
-    leftBottomEdge = CGPointMake(-self.size.width/2+1, -self.size.height/2+1);
-    rightTopEdge = CGPointMake(self.size.width/2-1, self.size.height/2-1);
+    leftBottomEdge = CGPointMake(-self.size.width*self.anchorPoint.x+1, -self.size.height*self.anchorPoint.y+1);
+    rightTopEdge = CGPointMake(self.size.width*self.anchorPoint.x-1, self.size.height*self.anchorPoint.y-1);
     
     NSLog(@"Scene position: (%f, %f) and size: (%f, %f)", self.position.x, self.position.y, self.size.width, self.size.height);
     debugNode = [DebugNode createWithPosition:CGPointMake(-self.size.width/2+1, -self.size.height/2+1) andSize:CGSizeMake(self.size.width-1, self.size.height-1)];
@@ -61,7 +61,7 @@
     bug2 = [[TPBug alloc] initWithName:@"bug2" AndPosition:CGPointMake(-200, 0)];
     [bug2 setAngle:-45*3.1427/180];
     [[bug2 stateMachine] pushState:[TPRunState createState]];
-    [bug2 setSpeed:800];
+    [bug2 setSpeed:600];
     [self addChild:bug2];
     
     TPBug* bug3 = [[TPBug alloc] initWithName:@"bug1" AndPosition:CGPointMake(0, 0)];
@@ -72,6 +72,7 @@
     TPBug* bug4 = [[TPBug alloc] initWithName:@"bug2" AndPosition:CGPointMake(200, 0)];
     [bug4 setAngle:45*3.1427/180];
     [[bug4 stateMachine] pushState:[TPRunState createState]];
+    [bug4 setSpeed: 600];
     [self addChild:bug4];
     
     
@@ -130,21 +131,34 @@
         if ([obj isDead]) {
             NSLog(@"Remove object: %@ from scene", obj.name);
             [deadIndexes addIndex:i];
+            
+            //deattach the object from the scene
+            [obj removeFromParent];
         }
     }
     
     if ([deadIndexes count] >0) [self.sceneObjects removeObjectsAtIndexes: deadIndexes];
 }
 
+-(void) tapAtPoint: (CGPoint) point {
+    SKNode *node = [self nodeAtPoint:point];
+    if (node != nil) {
+        // NSLog(@"NODE user data: %@", node.userData[@"type"]);
+        if ([node.userData[@"type"] isEqualToString:@"bug"]) {
+            TPBug* bug = (TPBug*)node;
+            [bug handleEvent:[TPEvent createEventByType:EVENT_TAP]];
+        }
+    }
+}
+
 #if TARGET_OS_IOS || TARGET_OS_TV
 // Touch-based event handling
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    //[_label runAction:[SKAction actionNamed:@"Pulse"] withKey:@"fadeInOut"];
+    for (UITouch *t in touches) {
+        [self tapAtPoint:[t locationInNode: self]];
+    }
     
-    //for (UITouch *t in touches) {
-    //    [self makeSpinnyAtPoint:[t locationInNode:self] color:[SKColor greenColor]];
-    //}
 }
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
     //for (UITouch *t in touches) {
@@ -170,15 +184,7 @@
     //[_label runAction:[SKAction actionNamed:@"Pulse"] withKey:@"fadeInOut"];
     //[self makeSpinnyAtPoint:[event locationInNode:self] color:[SKColor greenColor]];
     
-    //check if click in node
-    SKNode *node = [self nodeAtPoint:[event locationInNode:self]];
-    if (node != nil) {
-        // NSLog(@"NODE user data: %@", node.userData[@"type"]);
-        if ([node.userData[@"type"] isEqualToString:@"bug"]) {
-            TPBug* bug = (TPBug*)node;
-            [bug handleEvent:[TPEvent createEventByType:EVENT_TAP]];
-        }
-    }
+    [self tapAtPoint: [event locationInNode:self]];
 }
 
 - (void)mouseDragged:(NSEvent *)event {

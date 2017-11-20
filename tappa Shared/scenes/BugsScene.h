@@ -15,6 +15,9 @@
 + (BugsScene *)newGameScene;
 - (void)setUpScene;
 
+// Handle
+-(void) tapAtPoint: (CGPoint) point;
+
 @property NSMutableArray *sceneObjects;
 
 @end

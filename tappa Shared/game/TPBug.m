@@ -10,6 +10,7 @@
 #import "TPBug.h"
 #import "TPSharedTextureAtlas.h"
 #import "states/TPRunState.h"
+#import "TPEmitter.h"
 
 @implementation TPBug
 {
@@ -22,7 +23,7 @@
     self = [super initWithColor: [UIColor colorWithRed:1 green:1 blue:1 alpha:1] size:CGSizeMake(185, 195)];
 #endif
 #if TARGET_OS_OSX
-    self = [super initWithColor: [NSColor colorWithRed:1 green:1 blue:1 alpha:1] size:CGSizeMake(185, 195)];
+    self = [super initWithColor: [NSColor colorWithRed:1 green:1 blue:1 alpha:1] size:CGSizeMake(239, 272)];
 #endif
     if(!self) return nil;
     
@@ -32,7 +33,7 @@
     [self load];
     [self setCurrentDirection: CGVectorMake(0,1)]; // UP
     self.anchorPoint = CGPointMake(0.5,0.5);
-    [self setSpeed:500.0f];
+    [self setSpeed:400.0f];
     
     self.deadMark = FALSE;
     
@@ -50,9 +51,11 @@
     SKTexture* frame;
     _runFrames = [NSMutableArray array];
     for(int i=1; i<9; i++) {
+        NSLog(@"load image: %@-run-%d.png", self.name, i);
         frame = [atlas textureNamed: [NSString stringWithFormat:@"%@-run-%d.png", self.name, i]];
         //frame.filteringMode = SKTextureFilteringNearest;
         [_runFrames addObject:frame];
+        NSLog(@"==> OK!");
     }
     
     //define actions
@@ -89,8 +92,11 @@
     //cancel all actions
     [self removeAllActions];
     
+    //emit particles
+    [TPEmitter createEmitterWithName:@"bug-tap" andPosition:self.position andParent:self.parent];
+    
     //play die animation
-    [self runAction: [SKAction fadeOutWithDuration:0.5] withKey:@"dying"];
+    [self runAction: [SKAction fadeOutWithDuration:1.5] withKey:@"dying"];
 }
 
 @end

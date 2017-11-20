@@ -39,7 +39,8 @@
     
     //move the object a little bit, otherwise it gets OVER_EDGE event again
     //TODO: raise OVER_EDGE event in case an object is going to cross edge in the next update (position.x + direction.dx*dx > edge.max_x)
-    [obj fixPosition];
+    //DEPRECATED
+    // [obj fixPosition];
     return nil;
 }
 

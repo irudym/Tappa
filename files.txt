@@ -1,0 +1,1675 @@
+total 32
+drwxr-xr-x  14 igor  staff   476 Nov 20 23:28 .
+drwxr-xr-x  60 igor  staff  2040 Nov  4 15:34 ..
+-rw-r--r--@  1 igor  staff  6148 Nov 20 23:27 .DS_Store
+	com.apple.FinderInfo	  32 
+drwxr-xr-x  16 igor  staff   544 Nov 20 23:24 .git
+drwxr-xr-x   4 igor  staff   136 Nov 16 23:28 Assets.xcassets
+drwxr-xr-x  18 igor  staff   612 Nov 20 23:24 Bugs.atlas
+-rw-r--r--   1 igor  staff    68 Nov  8 11:46 README.md
+-rw-r--r--@  1 igor  staff  3720 Nov 17 00:20 bug-tap2.sks
+	com.apple.metadata:_kMDItemUserTags	  42 
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 105 
+-rw-r--r--   1 igor  staff     0 Nov 20 23:28 files.txt
+drwxr-xr-x   3 igor  staff   102 Nov 17 23:58 particles
+drwxr-xr-x  11 igor  staff   374 Nov 17 23:58 tappa Shared
+drwxr-xr-x  10 igor  staff   340 Nov  8 11:42 tappa iOS
+drwxr-xr-x  10 igor  staff   340 Nov  8 11:42 tappa macOS
+drwxr-xr-x@  5 igor  staff   170 Nov 20 23:24 tappa.xcodeproj
+	LastUpgradeCheck	   4 
+
+./.git:
+total 80
+drwxr-xr-x   16 igor  staff    544 Nov 20 23:24 .
+drwxr-xr-x   14 igor  staff    476 Nov 20 23:28 ..
+-rw-r--r--    1 igor  staff    158 Nov 16 13:19 COMMIT_EDITMSG
+-rw-r--r--    1 igor  staff     93 Nov 20 22:56 FETCH_HEAD
+-rw-r--r--    1 igor  staff     23 Nov  4 15:34 HEAD
+-rw-r--r--    1 igor  staff     41 Nov 16 13:19 ORIG_HEAD
+drwxr-xr-x    2 igor  staff     68 Nov  8 11:43 branches
+-rw-r--r--    1 igor  staff    301 Nov  8 11:47 config
+-rw-r--r--    1 igor  staff     73 Nov  4 15:34 description
+drwxr-xr-x   13 igor  staff    442 Nov  8 11:43 hooks
+-rw-r--r--    1 igor  staff  12798 Nov 20 23:24 index
+drwxr-xr-x    3 igor  staff    102 Nov  4 15:34 info
+drwxr-xr-x    4 igor  staff    136 Nov 16 13:19 lfs
+drwxr-xr-x    4 igor  staff    136 Nov  4 15:34 logs
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 objects
+drwxr-xr-x    5 igor  staff    170 Nov 16 13:19 refs
+
+./.git/branches:
+total 0
+drwxr-xr-x   2 igor  staff   68 Nov  8 11:43 .
+drwxr-xr-x  16 igor  staff  544 Nov 20 23:24 ..
+
+./.git/hooks:
+total 96
+drwxr-xr-x  13 igor  staff   442 Nov  8 11:43 .
+drwxr-xr-x  16 igor  staff   544 Nov 20 23:24 ..
+-rwxr-xr-x   1 igor  staff   177 Nov  4 15:34 README.sample
+-rwxr-xr-x   1 igor  staff   478 Nov  8 11:43 applypatch-msg.sample
+-rwxr-xr-x   1 igor  staff   896 Nov  8 11:43 commit-msg.sample
+-rwxr-xr-x   1 igor  staff   189 Nov  8 11:43 post-update.sample
+-rwxr-xr-x   1 igor  staff   424 Nov  8 11:43 pre-applypatch.sample
+-rwxr-xr-x   1 igor  staff  1642 Nov  8 11:43 pre-commit.sample
+-rwxr-xr-x   1 igor  staff  1348 Nov  8 11:43 pre-push.sample
+-rwxr-xr-x   1 igor  staff  4898 Nov  8 11:43 pre-rebase.sample
+-rwxr-xr-x   1 igor  staff   544 Nov  8 11:43 pre-receive.sample
+-rwxr-xr-x   1 igor  staff  1239 Nov  8 11:43 prepare-commit-msg.sample
+-rwxr-xr-x   1 igor  staff  3610 Nov  8 11:43 update.sample
+
+./.git/info:
+total 8
+drwxr-xr-x   3 igor  staff  102 Nov  4 15:34 .
+drwxr-xr-x  16 igor  staff  544 Nov 20 23:24 ..
+-rw-r--r--@  1 igor  staff   40 Nov  4 15:34 exclude
+	com.apple.TextEncoding	 15 
+
+./.git/lfs:
+total 0
+drwxr-xr-x   4 igor  staff  136 Nov 16 13:19 .
+drwxr-xr-x  16 igor  staff  544 Nov 20 23:24 ..
+drwxr-xr-x   3 igor  staff  102 Nov 16 13:19 objects
+drwxr-xr-x   3 igor  staff  102 Nov 16 13:19 tmp
+
+./.git/lfs/objects:
+total 0
+drwxr-xr-x  3 igor  staff  102 Nov 16 13:19 .
+drwxr-xr-x  4 igor  staff  136 Nov 16 13:19 ..
+drwxr-xr-x  2 igor  staff   68 Nov 16 13:19 logs
+
+./.git/lfs/objects/logs:
+total 0
+drwxr-xr-x  2 igor  staff   68 Nov 16 13:19 .
+drwxr-xr-x  3 igor  staff  102 Nov 16 13:19 ..
+
+./.git/lfs/tmp:
+total 0
+drwxr-xr-x  3 igor  staff  102 Nov 16 13:19 .
+drwxr-xr-x  4 igor  staff  136 Nov 16 13:19 ..
+drwxr-xr-x  2 igor  staff   68 Nov 16 13:19 objects
+
+./.git/lfs/tmp/objects:
+total 0
+drwxr-xr-x  2 igor  staff   68 Nov 16 13:19 .
+drwxr-xr-x  3 igor  staff  102 Nov 16 13:19 ..
+
+./.git/logs:
+total 8
+drwxr-xr-x   4 igor  staff  136 Nov  4 15:34 .
+drwxr-xr-x  16 igor  staff  544 Nov 20 23:24 ..
+-rw-r--r--   1 igor  staff  671 Nov 16 13:19 HEAD
+drwxr-xr-x   4 igor  staff  136 Nov 16 13:19 refs
+
+./.git/logs/refs:
+total 0
+drwxr-xr-x  4 igor  staff  136 Nov 16 13:19 .
+drwxr-xr-x  4 igor  staff  136 Nov  4 15:34 ..
+drwxr-xr-x  3 igor  staff  102 Nov  4 15:34 heads
+drwxr-xr-x  3 igor  staff  102 Nov  8 11:44 remotes
+
+./.git/logs/refs/heads:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 15:34 .
+drwxr-xr-x  4 igor  staff  136 Nov 16 13:19 ..
+-rw-r--r--  1 igor  staff  671 Nov 16 13:19 master
+
+./.git/logs/refs/remotes:
+total 0
+drwxr-xr-x  3 igor  staff  102 Nov  8 11:44 .
+drwxr-xr-x  4 igor  staff  136 Nov 16 13:19 ..
+drwxr-xr-x  3 igor  staff  102 Nov  8 11:44 origin
+
+./.git/logs/refs/remotes/origin:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  8 11:44 .
+drwxr-xr-x  3 igor  staff  102 Nov  8 11:44 ..
+-rw-r--r--  1 igor  staff  424 Nov 16 13:19 master
+
+./.git/objects:
+total 0
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 .
+drwxr-xr-x   16 igor  staff   544 Nov 20 23:24 ..
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:44 00
+drwxr-xr-x    5 igor  staff   170 Nov  8 11:43 02
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 04
+drwxr-xr-x    5 igor  staff   170 Nov  7 00:26 05
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 06
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:28 07
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 09
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 0a
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 0c
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 0d
+drwxr-xr-x    3 igor  staff   102 Nov 10 16:32 10
+drwxr-xr-x    4 igor  staff   136 Nov 10 22:24 11
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 13
+drwxr-xr-x    3 igor  staff   102 Nov  6 21:53 14
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 15
+drwxr-xr-x    3 igor  staff   102 Nov  4 18:33 16
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 18
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 1a
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 1b
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 1c
+drwxr-xr-x    3 igor  staff   102 Nov 17 22:33 1d
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 1e
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 1f
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:43 21
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 24
+drwxr-xr-x    5 igor  staff   170 Nov 16 13:19 25
+drwxr-xr-x    3 igor  staff   102 Nov 10 16:32 26
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 27
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 29
+drwxr-xr-x    3 igor  staff   102 Nov  5 16:07 2a
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 2b
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 2c
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 2f
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 31
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:28 33
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 34
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 37
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 39
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 3a
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 3b
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 3f
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 44
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 47
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 48
+drwxr-xr-x    4 igor  staff   136 Nov 10 16:32 49
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 4c
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 4e
+drwxr-xr-x    4 igor  staff   136 Nov  4 15:34 51
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 52
+drwxr-xr-x    3 igor  staff   102 Nov 16 12:25 53
+drwxr-xr-x    4 igor  staff   136 Nov  4 15:34 54
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 56
+drwxr-xr-x    4 igor  staff   136 Nov 10 22:24 5c
+drwxr-xr-x    3 igor  staff   102 Nov  5 15:47 5f
+drwxr-xr-x    4 igor  staff   136 Nov 10 22:24 60
+drwxr-xr-x    5 igor  staff   170 Nov  7 19:21 65
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 66
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 67
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 6a
+drwxr-xr-x    4 igor  staff   136 Nov 10 23:28 6b
+drwxr-xr-x    7 igor  staff   238 Nov  8 11:44 6d
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 6e
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 70
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 71
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 73
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 74
+drwxr-xr-x    3 igor  staff   102 Nov 10 23:28 75
+drwxr-xr-x    3 igor  staff   102 Nov 10 23:28 76
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:44 78
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 7c
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 80
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 81
+drwxr-xr-x    3 igor  staff   102 Nov  6 21:59 82
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:02 83
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 84
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 86
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 88
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 89
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 8b
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:44 8c
+drwxr-xr-x    3 igor  staff   102 Nov  5 15:47 8d
+drwxr-xr-x    4 igor  staff   136 Nov  6 21:51 8e
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:44 93
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 95
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:43 96
+drwxr-xr-x    5 igor  staff   170 Nov  8 11:44 97
+drwxr-xr-x    4 igor  staff   136 Nov 10 23:28 98
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 99
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 9a
+drwxr-xr-x    3 igor  staff   102 Nov  4 23:54 9b
+drwxr-xr-x    3 igor  staff   102 Nov  6 21:59 9d
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 9e
+drwxr-xr-x    3 igor  staff   102 Nov  7 19:21 9f
+drwxr-xr-x    5 igor  staff   170 Nov 16 23:07 a0
+drwxr-xr-x    3 igor  staff   102 Nov  4 19:39 a1
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 a2
+drwxr-xr-x    3 igor  staff   102 Nov  5 15:50 a4
+drwxr-xr-x    4 igor  staff   136 Nov 10 22:24 a5
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 a7
+drwxr-xr-x    3 igor  staff   102 Nov 10 16:32 aa
+drwxr-xr-x    3 igor  staff   102 Nov 10 16:32 ac
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 ad
+drwxr-xr-x    4 igor  staff   136 Nov  4 15:34 b0
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 b2
+drwxr-xr-x    4 igor  staff   136 Nov 16 23:28 b7
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 b8
+drwxr-xr-x    3 igor  staff   102 Nov 17 22:33 b9
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 ba
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 bd
+drwxr-xr-x    3 igor  staff   102 Nov 10 16:32 c0
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 c3
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 c5
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:28 c6
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 c8
+drwxr-xr-x    3 igor  staff   102 Nov 16 12:25 c9
+drwxr-xr-x    5 igor  staff   170 Nov 17 23:58 ca
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 cd
+drwxr-xr-x    3 igor  staff   102 Nov 10 23:28 ce
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 cf
+drwxr-xr-x    3 igor  staff   102 Nov 10 22:24 d0
+drwxr-xr-x    4 igor  staff   136 Nov 10 23:28 d1
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 d2
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:44 d4
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 d5
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 d6
+drwxr-xr-x    3 igor  staff   102 Nov  4 18:33 d7
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 da
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 dd
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 de
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 e1
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:28 e3
+drwxr-xr-x    4 igor  staff   136 Nov 10 16:32 e8
+drwxr-xr-x    3 igor  staff   102 Nov  6 21:53 e9
+drwxr-xr-x    4 igor  staff   136 Nov  7 23:12 ea
+drwxr-xr-x    5 igor  staff   170 Nov  8 11:44 eb
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 ee
+drwxr-xr-x    3 igor  staff   102 Nov  5 15:50 ef
+drwxr-xr-x    3 igor  staff   102 Nov 10 16:32 f1
+drwxr-xr-x    3 igor  staff   102 Nov  7 00:26 f3
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 f4
+drwxr-xr-x    4 igor  staff   136 Nov 10 23:28 f5
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:46 f7
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:25 f9
+drwxr-xr-x    3 igor  staff   102 Nov 10 22:24 fb
+drwxr-xr-x    3 igor  staff   102 Nov  4 21:29 fe
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 ff
+drwxr-xr-x    2 igor  staff    68 Nov  4 15:34 info
+drwxr-xr-x    2 igor  staff    68 Nov  4 15:34 pack
+
+./.git/objects/00:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   405 Nov 16 13:19 0eeea795a0423c68246e3c271438025e5bec12
+-r--r--r--    1 igor  staff    58 Nov  8 11:46 cc1468b3641fddd8a6bca516a2d2730dbe5d71
+
+./.git/objects/02:
+total 24
+drwxr-xr-x    5 igor  staff   170 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   171 Nov  7 23:12 433cf4c1de52f05884942547fdeef8dc6ca7d8
+-r--r--r--    1 igor  staff   387 Nov  8 11:43 7ff531fcebba91fe194ebcdd322d7b3e243042
+-r--r--r--    1 igor  staff    58 Nov  4 15:34 9208c9c7527dc238d778021f801eb3a37cbd8a
+
+./.git/objects/04:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    54 Nov  8 11:44 fb31349f983ac58bb749463411fff4203b713e
+
+./.git/objects/05:
+total 24
+drwxr-xr-x    5 igor  staff   170 Nov  7 00:26 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  1416 Nov  4 15:34 3052001e4f4fd4d597c1c74f1ab1919ec27642
+-r--r--r--    1 igor  staff   111 Nov  4 15:34 64959fbaa40f7de46983439d4a3f016662e0ef
+-r--r--r--    1 igor  staff   171 Nov  7 00:26 937b73cf806593bbc534b1a1c13a27a8856606
+
+./.git/objects/06:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  1463 Nov  8 11:43 96f85076622837189b915e9ae0fdc5fd7d3747
+
+./.git/objects/07:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:28 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   147 Nov 16 23:28 311ae4e9a1a421d775641c94121bb18ac1afa9
+
+./.git/objects/09:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   216 Nov 16 13:19 9ac7fc43dd4ae53e9360739bd981ab6cea65c9
+
+./.git/objects/0a:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   131 Nov  4 15:34 b98fcaf67eb7bea103ee6c12969a38c91c1b64
+
+./.git/objects/0c:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    76 Nov  8 11:44 174292b8ad5ab676e444ed15d64d24534ab1d3
+
+./.git/objects/0d:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  2166 Nov 16 13:19 84149db836973f0d83a66ab01d2582ac943ed6
+-r--r--r--    1 igor  staff    70 Nov  8 11:46 d647fad2aaba5a3b717ecfcb9a03873b3420c8
+
+./.git/objects/10:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 16:32 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  15938 Nov 20 23:19 da489b6ef2231226df616f314fe88f8fd620ce
+
+./.git/objects/11:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 10 22:24 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    169 Nov  4 15:41 a54b08042d43098c4a317857a015502e4322bc
+-r--r--r--    1 igor  staff  16232 Nov 20 23:14 f2e15ccf45c6cab60fe2f512c867ab1c4937bf
+
+./.git/objects/13:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   446 Nov  8 11:43 bc8d3924c4c25975d13c11672b8e75f5bbe156
+
+./.git/objects/14:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  6 21:53 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   150 Nov  6 21:53 9682b5eec220d90c6b4a6282c3c34fe89e3c1d
+
+./.git/objects/15:
+total 16
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  5030 Nov  8 11:43 2179148d6daf417e655a038a91466911e3bb44
+
+./.git/objects/16:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 18:33 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   120 Nov  4 18:33 a370df0147cffb86e00a4f4f78544aabe22990
+
+./.git/objects/18:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  1375 Nov  4 15:34 09bef606413d505c419d54126e3cf3dcc6ce3f
+-r--r--r--    1 igor  staff  1211 Nov 16 13:19 5e0cd9d9cdeadbe3151129621c60f93799b6e6
+
+./.git/objects/1a:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   446 Nov 16 13:19 5250412cc62c2ce18205d78d54291c399718b8
+-r--r--r--    1 igor  staff   184 Nov  4 15:34 bd0f1fdf1602d799726af6d894d3b7470c4150
+
+./.git/objects/1b:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   282 Nov  8 11:43 99380ec38a1af95675ea95a51d2b6b67fcebd1
+
+./.git/objects/1c:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   760 Nov  8 11:43 c87b335ed8308eb921d6f6f63ca2ef1d798d5d
+
+./.git/objects/1d:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 17 22:33 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   167 Nov 17 22:33 b06566c98d425ee1b3ec64ed026ef702e307e4
+
+./.git/objects/1e:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   223 Nov 16 13:19 bdd37363d062da67d0425b44c76a7cd0b3168a
+
+./.git/objects/1f:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  3682 Nov  4 15:34 91a849398eed276db9179170d2aa320f697bee
+
+./.git/objects/21:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   302 Nov  8 11:43 60125027b7d33538c333e6bd176ed479a0264d
+-r--r--r--    1 igor  staff   329 Nov  4 15:34 ca1ed696b2ff029c191b74fdb0775bb296c0ba
+
+./.git/objects/24:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   448 Nov  8 11:43 790d5487c7043e51ab58e4712d50a9c46bc3c8
+
+./.git/objects/25:
+total 48
+drwxr-xr-x    5 igor  staff    170 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    251 Nov 16 13:19 18bc077ac921ff4ba7dfaaf6186256590a41ca
+-r--r--r--    1 igor  staff    145 Nov  7 18:19 1ea586bc34f173455fd481c8495ff305834b14
+-r--r--r--    1 igor  staff  15817 Nov 20 23:19 9dc27f52f8db0d921a8928a6b0f06a8ffc3a24
+
+./.git/objects/26:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 16:32 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  16089 Nov 20 23:20 778492aef18087f3e39938e939212d76d72edb
+
+./.git/objects/27:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   715 Nov  8 11:43 62084a419915c76b0073d6b0ae64d6e3ddbf9b
+
+./.git/objects/29:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   162 Nov  4 15:34 d94c78728c06c228eac185d9bffe4d0e62e4d5
+
+./.git/objects/2a:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  5 16:07 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  1175 Nov  5 16:07 0080f21db4adf96ba8c4e4cd9a889c284bc602
+
+./.git/objects/2b:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   500 Nov  8 11:43 31a93b3e13270a93b70904f3016b3ae879fe55
+
+./.git/objects/2c:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   180 Nov  8 11:44 521dd54f859c5d5fb7adaeff7ed809a5dcc888
+
+./.git/objects/2f:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    58 Nov  8 11:46 355dd0340ed6b3d5232c1513bd73c486af477c
+
+./.git/objects/31:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   181 Nov  4 15:34 0927586fc824df07612a438c0b376d425be2f3
+
+./.git/objects/33:
+total 16
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:28 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  5212 Nov 16 23:28 83a218caa6310f93bf704104a41f01aaa95691
+
+./.git/objects/34:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   170 Nov  8 11:46 eeab392f7c6df4d4fc124e8a9954e8acd01d4e
+
+./.git/objects/37:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  16040 Nov 20 23:14 736b7f8666eea2eb3a7cc42bf72c8aa3056f41
+-r--r--r--    1 igor  staff    218 Nov 16 13:19 a71f5ff8a0d2dcf951c261d9c2406062884fa1
+
+./.git/objects/39:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   544 Nov  8 11:43 1be817bb7cd4f4f6fc91ceddc6de55885a11ee
+
+./.git/objects/3a:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   778 Nov  8 11:43 c5e2b849208088c1b9efb8ea128d0185ca93db
+
+./.git/objects/3b:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   254 Nov  4 15:34 c6a9469be12ba4e442805303528f744a6e946d
+
+./.git/objects/3f:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  1198 Nov  8 11:43 ba73ca561c44d1c2e183156a1126e2434ef234
+
+./.git/objects/44:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    95 Nov  8 11:46 018a008c4e0918c7e46812f7372dd200078a03
+
+./.git/objects/47:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   414 Nov 16 13:19 ce342f80576297a70f204608123a029a5e74ce
+
+./.git/objects/48:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  3565 Nov  8 11:43 22c6eece810c22bdfb93a0ee035ec19422dcb3
+
+./.git/objects/49:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 10 16:32 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  16302 Nov 20 23:19 80691b00c00e2f40e62974feb28dd3f336354a
+-r--r--r--    1 igor  staff    796 Nov  4 15:34 b5d1a7e4112da66aee76036e06202ad53539b7
+
+./.git/objects/4c:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    81 Nov  8 11:46 e19f9628d4388a4bc5690ed755decc955ba656
+
+./.git/objects/4e:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  16111 Nov 20 23:14 d498b01b59227597a209ab783cd357b0e9b53d
+-r--r--r--    1 igor  staff    242 Nov 16 13:19 d8aa8407e5260fde8ea41fdab23681f2249932
+
+./.git/objects/51:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   197 Nov  4 15:34 6d860ec47ea05307c07e9befe4a30d4f01d3ea
+-r--r--r--    1 igor  staff   170 Nov  4 15:34 a504c49f0aa182b4879dd3469dc8988ff55701
+
+./.git/objects/52:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   405 Nov 16 13:19 6946f3db9c07e22440b18cbdd94865f89ebdb4
+
+./.git/objects/53:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 12:25 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   149 Nov 16 12:25 6f25bf656d634070fbd6a2a15792f1e34106a8
+
+./.git/objects/54:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    95 Nov  4 15:34 867219bbc1f1497aa51a330b2ef0ec07091c54
+-r--r--r--    1 igor  staff   500 Nov  4 15:34 bf8de32fbfc3a606d7a9d9f7acf47f060c115b
+
+./.git/objects/56:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   254 Nov  8 11:46 f392dfbc35fb43a3d01a8fe1855ef09557c69c
+
+./.git/objects/5c:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 10 22:24 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    324 Nov  4 15:34 c015b3a74487f20cd0cffdcb1794c6b5e6ecac
+-r--r--r--    1 igor  staff  16378 Nov 20 23:14 fdad3aaeb6daa18f09605bcb63be3402157f22
+
+./.git/objects/5f:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  5 15:47 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  1160 Nov  5 15:47 8ee0713339f6e2252dc202ac1ce9f7d2b215b4
+
+./.git/objects/60:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 10 22:24 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    832 Nov  8 11:43 6b2ba9ce1f6a3b91db18ab9ff029f7ef0777ef
+-r--r--r--    1 igor  staff  16008 Nov 20 23:14 c0cda1df1ea18b0c3d1ab82e73c000ea1f4f2d
+
+./.git/objects/65:
+total 24
+drwxr-xr-x    5 igor  staff   170 Nov  7 19:21 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   147 Nov  7 19:21 38fe9d1ae8dd634e836bc94c2e7150dcf48db8
+-r--r--r--    1 igor  staff  1162 Nov  4 23:54 547e3a0aba825731941d303b107e4fcda23966
+-r--r--r--    1 igor  staff   222 Nov  4 15:34 ad3a5f9748010d7ef6348db668acc623c114ca
+
+./.git/objects/66:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    68 Nov  8 11:46 2775a25008d02f7d770c94a44a653aea7cd36d
+
+./.git/objects/67:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   385 Nov  8 11:43 640a68061aeb9563eb58e62ed7eaa6b0ac1a74
+
+./.git/objects/6a:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    60 Nov  8 11:46 0e5b91372a8f3701fb87b4670887b3c8a698fe
+
+./.git/objects/6b:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 10 23:28 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  15987 Nov 20 23:19 a7f803f592ab8f8fcd8f4a1c62e8a8b0bcb41c
+-r--r--r--    1 igor  staff    214 Nov  8 11:47 ecb30191dc10de19435c4a42a89126c9063467
+
+./.git/objects/6d:
+total 40
+drwxr-xr-x    7 igor  staff   238 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   169 Nov  6 22:09 0a19bda3bafe31c7e28e846cedea96da8b2d3c
+-r--r--r--    1 igor  staff   162 Nov  7 18:19 45e896689565527d7e7b233474967188dde318
+-r--r--r--    1 igor  staff   171 Nov  7 18:16 7a0d648ff6cff064e6d14e6f3dc0d0ce294061
+-r--r--r--    1 igor  staff   243 Nov 16 13:19 bf5129b810fe7c882a6ca2084cbb68ee097d23
+-r--r--r--    1 igor  staff   152 Nov  6 22:09 c6273049a4d13302f8401257238fd1924d3ea2
+
+./.git/objects/6e:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   298 Nov  8 11:43 79d442a12edf820d7d922de479de3a9457c6a9
+
+./.git/objects/70:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   202 Nov  4 15:34 0b2b0d0d4a5eeacdebe1f00f8e488750866792
+-r--r--r--    1 igor  staff   484 Nov 16 13:19 96140c1ca7756fb6e0ac0e21635c73289cb214
+
+./.git/objects/71:
+total 16
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  5141 Nov 16 13:19 13fcc710c17478b4805b158822d093792cb124
+
+./.git/objects/73:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   254 Nov  8 11:46 57a212604812fd825af19a92ab7298663069d5
+-r--r--r--    1 igor  staff   786 Nov 16 13:19 d3bce1d3604c46084c5b0f7679a0f55ad2df6f
+
+./.git/objects/74:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    51 Nov  4 15:34 09d0271b777dc1bf5720783fe6c3931b4cd8e6
+
+./.git/objects/75:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 23:28 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  15448 Nov 20 23:19 2c93606d5b588974b4edaa9d7c28611bc4ecca
+
+./.git/objects/76:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 23:28 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  15783 Nov 20 23:19 a036a78e3d3e145d40a4368a0ac8b436ddc21d
+
+./.git/objects/78:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   202 Nov  8 11:46 0c2464a16b88edf14923c5fa6c5ed61a4ad495
+-r--r--r--    1 igor  staff   176 Nov  4 15:50 d6023d1045e050b811a4d1f80d2a109021c5a9
+
+./.git/objects/7c:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   146 Nov  4 15:42 b352666409a033f29cebbc146e9086dd7e9802
+-r--r--r--    1 igor  staff   257 Nov 16 13:19 e4f8ad238ea811d222faf3b2db7270f23dc3bd
+
+./.git/objects/80:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   387 Nov  8 11:43 4f12b01eb65b425810e9816fc771420cc4f330
+
+./.git/objects/81:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   798 Nov  4 15:34 ccbf8ec791a28b4f8c8dc4d24568b43b328c69
+
+./.git/objects/82:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  6 21:59 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   166 Nov  6 21:59 3b4b66363b507d259a80a3331f52bd90655e5a
+
+./.git/objects/83:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:02 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  2154 Nov 16 23:02 d94eced1dac016b798ce304f9e5d90c3125f60
+
+./.git/objects/84:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   145 Nov  4 15:34 cc70586b6de28da319cae876e1d88338c11f2d
+
+./.git/objects/86:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   388 Nov  8 11:43 c37dc5ff0211278b20ce024760e02bf5e2b497
+
+./.git/objects/88:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   243 Nov  8 11:46 fcaedd1d12dd45877f902b0eb9f290dc270022
+
+./.git/objects/89:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    62 Nov  8 11:46 c7bbc337a4a1ed9db8a68de44753d16cd48a05
+
+./.git/objects/8b:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    78 Nov  8 11:46 5704f5da87626111766be2e27cbbf4aa95b3c5
+
+./.git/objects/8c:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   125 Nov  4 15:34 2c2fd25ec03da9a238cc2ec71bcfba9e42b660
+-r--r--r--    1 igor  staff    83 Nov  8 11:46 7d992d515bd1461b25624f38b79f1da892b100
+
+./.git/objects/8d:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  5 15:47 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   224 Nov  5 15:47 20a873abc3e746d4bab49c7d67dc9a11b42a5c
+
+./.git/objects/8e:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  6 21:51 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   164 Nov  6 21:51 5c27f66c82d23a1945444d388994ed2d4704a5
+-r--r--r--    1 igor  staff   201 Nov  4 15:34 749336c540088da5df07889844b65a21cf424e
+
+./.git/objects/93:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    58 Nov  8 11:46 2fd897ce6c1f3e065c3c78e180333acb9dd815
+-r--r--r--    1 igor  staff    58 Nov  8 11:46 cd3c92279fe54db8262a372912d59aea078f41
+
+./.git/objects/95:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   248 Nov  4 15:34 58a45b1052bd8cf5fe8f31cc32c38dd99a3fb9
+
+./.git/objects/96:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   278 Nov  8 11:43 5d677f990c69a737cbbb4212c9fc3df08774c4
+-r--r--r--    1 igor  staff   561 Nov  4 15:34 71f430d8d66f8e3bacd9547dfe0cfbe06bcbae
+
+./.git/objects/97:
+total 24
+drwxr-xr-x    5 igor  staff   170 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    58 Nov  4 15:34 84d1176e9fba0499057e8700dddb234d495bb2
+-r--r--r--    1 igor  staff   486 Nov  4 15:34 c474828e557946d541239253c0f23dc097292a
+-r--r--r--    1 igor  staff   123 Nov  8 11:46 d54f0f69b90e27fc45861533e63c1bad11eb81
+
+./.git/objects/98:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 10 23:28 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  15373 Nov 20 23:19 f4a5d9661480fa0fb9994a57d9e714cfe46ff4
+-r--r--r--    1 igor  staff    157 Nov  7 18:16 fa3c4e8a72c87c9b70e36d4420de0bbe802d84
+
+./.git/objects/99:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    94 Nov  8 11:46 accd117f3c362ce772113d44a2a009b33a0c73
+
+./.git/objects/9a:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   911 Nov  4 15:34 8efeecaccfe7f5af869c6e97939fc64b895987
+
+./.git/objects/9b:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 23:54 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   210 Nov  4 23:54 873f372a80bdc4a267b5817844251ccb6f7d5e
+
+./.git/objects/9d:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  6 21:59 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   150 Nov  6 21:59 83834481da606bea6fd511a9200852b3199381
+
+./.git/objects/9e:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   336 Nov  8 11:43 80eb3faf487ca58cd83f6c77d156da57fa98d4
+
+./.git/objects/9f:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  7 19:21 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   165 Nov  7 19:21 56e43545b099357632c97242625c8a3cddbebe
+
+./.git/objects/a0:
+total 24
+drwxr-xr-x    5 igor  staff   170 Nov 16 23:07 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   387 Nov  8 11:43 10c6e79aa10d8ee3e386a6ab2399a951a198a1
+-r--r--r--    1 igor  staff  2391 Nov 16 23:07 a28ce0cb0450b541c4d46a8979dbcd777f10ab
+-r--r--r--    1 igor  staff  3318 Nov  4 15:34 bcbf0b94dcfb04838a1f4078ba2804a679c92b
+
+./.git/objects/a1:
+total 24
+drwxr-xr-x    3 igor  staff   102 Nov  4 19:39 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  8534 Nov 20 23:14 78f75de39e6d12681b45d05a3ddd756694988d
+
+./.git/objects/a2:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  1391 Nov  8 11:43 8a803c0a6a9eb829ec3b37e895055948b1802b
+
+./.git/objects/a4:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  5 15:50 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   149 Nov  5 15:50 af03ccd2171fb7959168a852cafa6e07a4fe23
+
+./.git/objects/a5:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 10 22:24 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  16064 Nov 20 23:14 0f633445d29fc885dc9a39e3f586fb17f8edc3
+-r--r--r--    1 igor  staff    225 Nov  5 16:07 311f3eca5771ce221e4b92d49df663a0a4dcd2
+
+./.git/objects/a7:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   313 Nov  8 11:43 8f4947118c84e2c065808a23b57f76d8d1304e
+
+./.git/objects/aa:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 16:32 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  16118 Nov 20 23:20 553f927d674a32f88ab67e2f81adf92c2225b0
+
+./.git/objects/ac:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 16:32 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  16037 Nov 20 23:19 e4310ed3c14bc0abf6e103e64a718a29bc5993
+
+./.git/objects/ad:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    58 Nov  4 15:34 052f1acc61e042b99e9794cd9334a36030b967
+
+./.git/objects/b0:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   250 Nov  4 15:34 3ded127a9b2ead9bc8d5af51dd69ea7a16470e
+-r--r--r--    1 igor  staff    94 Nov  4 15:34 7fe5cc13467a3099eb6aad2597fbb86a8f7a4f
+
+./.git/objects/b2:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   152 Nov  8 11:44 a9dbfef5095996b603f72736e89c027cca2554
+
+./.git/objects/b7:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov 16 23:28 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  2311 Nov 16 23:28 748bd32657ce5e6c8e0957650a80dc68db8594
+-r--r--r--    1 igor  staff   479 Nov  8 11:43 d194ef4a2205f7fb426d4e3ab72691633e108d
+
+./.git/objects/b8:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   231 Nov  8 11:43 ff536f88080171b159b134b2ba9936199aeb14
+
+./.git/objects/b9:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 17 22:33 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   149 Nov 17 22:33 b65a8c7da5ddcc9836f219b817d7a0bc7e3186
+
+./.git/objects/ba:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   541 Nov  4 15:34 72dcb8411c867b61dfbaed2d29979ebe2e98be
+
+./.git/objects/bd:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   131 Nov  4 15:34 7baa123b2cf2e8922935aa608c92681c5e9c0d
+
+./.git/objects/c0:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 16:32 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  15766 Nov 20 23:19 bdbf014b283f9f569827391572e454d9fa1d7a
+
+./.git/objects/c3:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  3560 Nov 16 13:19 261a170200af56d22e232f61496d2bdf29ba89
+
+./.git/objects/c5:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    81 Nov 16 13:19 a549b5039e7a62dd99559d6f45a3a45c38c949
+
+./.git/objects/c6:
+total 24
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:28 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  9056 Nov 16 23:28 805516564906d932b5d765bbdb7e1d18ab6e71
+
+./.git/objects/c8:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   202 Nov 16 13:19 4851bec49f9d99a3d70c9afb67d19269535b3b
+-r--r--r--    1 igor  staff   255 Nov  4 15:34 fff35bc1d8a0953717faeb70c49a79c7dac770
+
+./.git/objects/c9:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 12:25 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   167 Nov 16 12:25 44e0cf8764b187f28c2d962458670c4216bf38
+
+./.git/objects/ca:
+total 24
+drwxr-xr-x    5 igor  staff   170 Nov 17 23:58 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  2255 Nov 17 23:58 69632e48f61bd535c77c7fd0b0e66cc4e15455
+-r--r--r--    1 igor  staff   745 Nov  8 11:43 a632ec517c07fa2e1b54c8d8cbcadeeb491449
+-r--r--r--    1 igor  staff   490 Nov  8 11:43 f4d64ab998b2525455cbf0f6bc90057c009cc0
+
+./.git/objects/cd:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   123 Nov  4 15:34 84344aea068ce72f243e9057672b63d7c482f6
+
+./.git/objects/ce:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 23:28 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  15991 Nov 20 23:19 d0eb8751cfa1f8f5589d6d570419701232f63d
+
+./.git/objects/cf:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  1176 Nov  8 11:43 a7410e326eaad58351bcae784aa217ad97703d
+
+./.git/objects/d0:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 22:24 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  16293 Nov 20 23:14 96aeddb1c0d6e87daeb377979201c7be3902e7
+
+./.git/objects/d1:
+total 48
+drwxr-xr-x    4 igor  staff    136 Nov 10 23:28 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   7450 Nov  4 15:34 5f7f686798fa05f3acf770192ef358389c9db4
+-r--r--r--    1 igor  staff  15365 Nov 20 23:19 de2b3e17c51858a06f8197a61ada5f525951da
+
+./.git/objects/d2:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   137 Nov  4 15:34 9f024ed5c3128ad5835d7b44176860dc84dac4
+
+./.git/objects/d4:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   506 Nov  8 11:44 1d715895a2198e8a427605ccb838fce1d815a8
+-r--r--r--    1 igor  staff    69 Nov  8 11:46 7aa2c363e0463fa973aa3b451ad37620839511
+
+./.git/objects/d5:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   131 Nov 16 13:19 a57f529d609bb1f94fdde03729af311c93c118
+
+./.git/objects/d6:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 13:19 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   317 Nov 16 13:19 d0cbb5fe477d0228218eb3eb3c0248f4472e84
+
+./.git/objects/d7:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 18:33 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   177 Nov  4 18:33 46a609003ff0f1b97da99bb088b9ddb62f515a
+
+./.git/objects/da:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    65 Nov 16 23:28 4a164c918651cdd1e11dca5cc62c333f097601
+
+./.git/objects/dd:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   261 Nov  4 15:34 be6226241172af7b111c1a86d47a30b017f698
+
+./.git/objects/de:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   193 Nov  4 15:34 250af7ecfc84d5177b2d7d7b321e1e10313fe7
+
+./.git/objects/e1:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   372 Nov  8 11:43 198301d2a79d5d3ba609094f9dbdaca1055767
+
+./.git/objects/e3:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:28 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   147 Nov 16 23:28 461a7676319be16d462cf4425dc73b47fb7912
+
+./.git/objects/e8:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 10 16:32 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  16141 Nov 20 23:20 4d54852ef0625fc5ea1748637fe87a3a00461b
+-r--r--r--    1 igor  staff    346 Nov  8 11:46 787f19d69e8da8d51754ecf341addae6a0c277
+
+./.git/objects/e9:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  6 21:53 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   165 Nov  6 21:53 b31d02b3a57f54cc2a6d3b82856589b5127625
+
+./.git/objects/ea:
+total 16
+drwxr-xr-x    4 igor  staff   136 Nov  7 23:12 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   152 Nov  7 23:12 ada46356a590b8bf977c305850839e91163a9a
+-r--r--r--    1 igor  staff   164 Nov  7 18:11 e5e693e91b8f2da3d6773e5fab4cb4fef7ce8a
+
+./.git/objects/eb:
+total 24
+drwxr-xr-x    5 igor  staff   170 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff    58 Nov  4 15:34 14ce9f52f557200f9f62bafc78361a9d7a3cd4
+-r--r--r--    1 igor  staff   164 Nov  4 15:42 839ac5609ac6eb944895705a6bf55edbca2f10
+-r--r--r--    1 igor  staff   131 Nov  8 11:46 af18ab9abfb8d17125feecf71cc80f55edce63
+
+./.git/objects/ee:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:44 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   114 Nov  8 11:46 33ae11bd752d159198996077b4732def76e8e7
+
+./.git/objects/ef:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  5 15:50 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   163 Nov  5 15:50 023aab7d2ca5969d1f469f1ba0971136caff41
+
+./.git/objects/f1:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 16:32 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  15926 Nov 20 23:20 f368a4ca8fe0c5855435b41bd5f84fb683891b
+
+./.git/objects/f3:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  7 00:26 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   151 Nov  7 00:26 6d772e2383f941ebda7fa3a6ecabf7b807eaad
+
+./.git/objects/f4:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   182 Nov  4 15:34 df0038b075a2ea20bfada3e2f79a79b78e628b
+
+./.git/objects/f5:
+total 40
+drwxr-xr-x    4 igor  staff    136 Nov 10 23:28 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  15464 Nov 20 23:19 20ca0b589ab8b82716082181f7ec940a3bfc6d
+-r--r--r--    1 igor  staff    159 Nov  4 15:50 bffbdd89a779f703fc1cfcd489d83e3ea9fe64
+
+./.git/objects/f7:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:46 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   219 Nov  8 11:46 9b95603f87f930ca877e6af6d3b260f9d3e15a
+
+./.git/objects/f9:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov 16 23:25 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  2296 Nov 16 23:25 96ff83b1a6fab24941e034d40fccfa043757b8
+
+./.git/objects/fb:
+total 32
+drwxr-xr-x    3 igor  staff    102 Nov 10 22:24 .
+drwxr-xr-x  150 igor  staff   5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  16242 Nov 20 23:14 3eadbbe79cc6fe5ef1064e7242af2f9558a167
+
+./.git/objects/fe:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  4 21:29 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff  3512 Nov  4 21:29 8af25d58ffe651f4b140abd180667b7aa8872a
+
+./.git/objects/ff:
+total 8
+drwxr-xr-x    3 igor  staff   102 Nov  8 11:43 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+-r--r--r--    1 igor  staff   322 Nov  8 11:43 c8d12dd1abd4c0d7b5b0463b3701a911dac841
+
+./.git/objects/info:
+total 0
+drwxr-xr-x    2 igor  staff    68 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+
+./.git/objects/pack:
+total 0
+drwxr-xr-x    2 igor  staff    68 Nov  4 15:34 .
+drwxr-xr-x  150 igor  staff  5100 Nov 20 23:20 ..
+
+./.git/refs:
+total 0
+drwxr-xr-x   5 igor  staff  170 Nov 16 13:19 .
+drwxr-xr-x  16 igor  staff  544 Nov 20 23:24 ..
+drwxr-xr-x   3 igor  staff  102 Nov 16 13:19 heads
+drwxr-xr-x   3 igor  staff  102 Nov  8 11:44 remotes
+drwxr-xr-x   2 igor  staff   68 Nov  4 15:34 tags
+
+./.git/refs/heads:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov 16 13:19 .
+drwxr-xr-x  5 igor  staff  170 Nov 16 13:19 ..
+-rw-r--r--  1 igor  staff   41 Nov 16 13:19 master
+
+./.git/refs/remotes:
+total 0
+drwxr-xr-x  3 igor  staff  102 Nov  8 11:44 .
+drwxr-xr-x  5 igor  staff  170 Nov 16 13:19 ..
+drwxr-xr-x  3 igor  staff  102 Nov 16 13:19 origin
+
+./.git/refs/remotes/origin:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov 16 13:19 .
+drwxr-xr-x  3 igor  staff  102 Nov  8 11:44 ..
+-rw-r--r--  1 igor  staff   41 Nov 16 13:19 master
+
+./.git/refs/tags:
+total 0
+drwxr-xr-x  2 igor  staff   68 Nov  4 15:34 .
+drwxr-xr-x  5 igor  staff  170 Nov 16 13:19 ..
+
+./Assets.xcassets:
+total 8
+drwxr-xr-x   4 igor  staff  136 Nov 16 23:28 .
+drwxr-xr-x  14 igor  staff  476 Nov 20 23:28 ..
+-rw-r--r--@  1 igor  staff   62 Nov 16 23:28 Contents.json
+	com.apple.TextEncoding	 15 
+drwxr-xr-x   5 igor  staff  170 Nov 16 23:28 Particle Sprite Atlas.spriteatlas
+
+./Assets.xcassets/Particle Sprite Atlas.spriteatlas:
+total 8
+drwxr-xr-x  5 igor  staff  170 Nov 16 23:28 .
+drwxr-xr-x  4 igor  staff  136 Nov 16 23:28 ..
+-rw-r--r--@ 1 igor  staff   62 Nov 16 23:28 Contents.json
+	com.apple.TextEncoding	 15 
+drwxr-xr-x  4 igor  staff  136 Nov 16 23:28 bokeh.imageset
+drwxr-xr-x  4 igor  staff  136 Nov 16 23:28 spark.imageset
+
+./Assets.xcassets/Particle Sprite Atlas.spriteatlas/bokeh.imageset:
+total 32
+drwxr-xr-x  4 igor  staff   136 Nov 16 23:28 .
+drwxr-xr-x  5 igor  staff   170 Nov 16 23:28 ..
+-rw-r--r--@ 1 igor  staff   302 Nov 16 23:28 Contents.json
+	com.apple.TextEncoding	  15 
+-rw-r--r--  1 igor  staff  9035 Nov 16 23:28 bokeh.png
+
+./Assets.xcassets/Particle Sprite Atlas.spriteatlas/spark.imageset:
+total 24
+drwxr-xr-x  4 igor  staff   136 Nov 16 23:28 .
+drwxr-xr-x  5 igor  staff   170 Nov 16 23:28 ..
+-rw-r--r--@ 1 igor  staff   302 Nov 16 23:28 Contents.json
+	com.apple.TextEncoding	  15 
+-rw-r--r--  1 igor  staff  5191 Nov 16 23:28 spark.png
+
+./Bugs.atlas:
+total 512
+drwxr-xr-x  18 igor  staff    612 Nov 20 23:24 .
+drwxr-xr-x  14 igor  staff    476 Nov 20 23:28 ..
+-rw-r--r--@  1 igor  staff  16383 Nov 10 16:22 bug1-run-1@3x.png
+	com.apple.FinderInfo	   32 
+	com.apple.metadata:_kMDItemUserTags	   42 
+	com.apple.quarantine	   22 
+-rw-r--r--@  1 igor  staff  15992 Nov 10 16:23 bug1-run-2@3x.png
+	com.apple.metadata:_kMDItemUserTags	   42 
+-rw-r--r--@  1 igor  staff  15831 Nov 10 16:23 bug1-run-3@3x.png
+	com.apple.metadata:_kMDItemUserTags	   42 
+-rw-r--r--@  1 igor  staff  16140 Nov 10 16:24 bug1-run-4@3x.png
+	com.apple.metadata:_kMDItemUserTags	   42 
+-rw-r--r--@  1 igor  staff  15987 Nov 10 16:24 bug1-run-5@3x.png
+	com.apple.metadata:_kMDItemUserTags	   42 
+-rw-r--r--@  1 igor  staff  16205 Nov 10 16:24 bug1-run-6@3x.png
+	com.apple.metadata:_kMDItemUserTags	   42 
+-rw-r--r--@  1 igor  staff  16177 Nov 10 16:24 bug1-run-7@3x.png
+	com.apple.metadata:_kMDItemUserTags	   42 
+-rw-r--r--@  1 igor  staff  16111 Nov 10 16:25 bug1-run-8.png
+	com.apple.metadata:_kMDItemUserTags	   42 
+-rw-r--r--   1 igor  staff  15414 Nov 10 23:08 bug2-run-1.png
+-rw-r--r--   1 igor  staff  16037 Nov 10 23:08 bug2-run-2.png
+-rw-r--r--   1 igor  staff  16054 Nov 10 23:09 bug2-run-3.png
+-rw-r--r--   1 igor  staff  15856 Nov 10 23:09 bug2-run-4.png
+-rw-r--r--@  1 igor  staff  15515 Nov 10 23:10 bug2-run-5.png
+	com.apple.quarantine	   22 
+-rw-r--r--   1 igor  staff  15837 Nov 10 23:11 bug2-run-6.png
+-rw-r--r--   1 igor  staff  15483 Nov 10 23:11 bug2-run-7.png
+-rw-r--r--   1 igor  staff  15437 Nov 10 23:12 bug2-run-8.png
+
+./particles:
+total 8
+drwxr-xr-x   3 igor  staff   102 Nov 17 23:58 .
+drwxr-xr-x  14 igor  staff   476 Nov 20 23:28 ..
+-rw-r--r--@  1 igor  staff  2234 Nov 17 23:57 flower-r.png
+	com.apple.quarantine	  22 
+
+./tappa Shared:
+total 72
+drwxr-xr-x  11 igor  staff   374 Nov 17 23:58 .
+drwxr-xr-x  14 igor  staff   476 Nov 20 23:28 ..
+-rw-r--r--@  1 igor  staff  6148 Nov  8 11:42 .DS_Store
+	com.apple.FinderInfo	  32 
+-rw-r--r--@  1 igor  staff  1942 Nov  4 21:29 Actions.sks
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 105 
+drwxr-xr-x   6 igor  staff   204 Nov 17 00:21 Assets.xcassets
+-rw-r--r--   1 igor  staff  5000 Nov 16 13:19 BugsScene.sks
+-rw-r--r--@  1 igor  staff   304 Nov  5 15:48 GameScene.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 249 
+-rw-r--r--@  1 igor  staff  3284 Nov  7 23:21 GameScene.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 633 
+-rw-r--r--@  1 igor  staff  4378 Nov 17 23:58 bug-tap.sks
+	com.apple.metadata:_kMDItemUserTags	  42 
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 649 
+drwxr-xr-x  17 igor  staff   578 Nov 20 23:07 game
+drwxr-xr-x   4 igor  staff   136 Nov 20 22:48 scenes
+
+./tappa Shared/Assets.xcassets:
+total 8
+drwxr-xr-x   6 igor  staff  204 Nov 17 00:21 .
+drwxr-xr-x  11 igor  staff  374 Nov 17 23:58 ..
+drwxr-xr-x   3 igor  staff  102 Nov  4 18:33 AppIcon.appiconset
+-rw-r--r--   1 igor  staff   62 Nov 17 00:21 Contents.json
+drwxr-xr-x   7 igor  staff  238 Nov  4 18:33 tvOS App Icon & Top Shelf Image.brandassets
+drwxr-xr-x   3 igor  staff  102 Nov  4 18:33 tvOS LaunchImage.launchimage
+
+./tappa Shared/Assets.xcassets/AppIcon.appiconset:
+total 8
+drwxr-xr-x  3 igor  staff   102 Nov  4 18:33 .
+drwxr-xr-x  6 igor  staff   204 Nov 17 00:21 ..
+-rw-r--r--  1 igor  staff  3456 Nov  4 18:33 Contents.json
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets:
+total 8
+drwxr-xr-x  7 igor  staff  238 Nov  4 18:33 .
+drwxr-xr-x  6 igor  staff  204 Nov 17 00:21 ..
+drwxr-xr-x  6 igor  staff  204 Nov  4 18:33 App Icon - App Store.imagestack
+drwxr-xr-x  6 igor  staff  204 Nov  4 18:33 App Icon.imagestack
+-rw-r--r--@ 1 igor  staff  663 Nov  4 15:34 Contents.json
+	com.apple.TextEncoding	 15 
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 Top Shelf Image Wide.imageset
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 Top Shelf Image.imageset
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon - App Store.imagestack:
+total 8
+drwxr-xr-x  6 igor  staff  204 Nov  4 18:33 .
+drwxr-xr-x  7 igor  staff  238 Nov  4 18:33 ..
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 Back.imagestacklayer
+-rw-r--r--@ 1 igor  staff  249 Nov  4 15:34 Contents.json
+	com.apple.TextEncoding	 15 
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 Front.imagestacklayer
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 Middle.imagestacklayer
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon - App Store.imagestack/Back.imagestacklayer:
+total 8
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 .
+drwxr-xr-x  6 igor  staff  204 Nov  4 18:33 ..
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 Content.imageset
+-rw-r--r--@ 1 igor  staff   62 Nov  4 15:34 Contents.json
+	com.apple.TextEncoding	 15 
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon - App Store.imagestack/Back.imagestacklayer/Content.imageset:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 .
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 ..
+-rw-r--r--  1 igor  staff  193 Nov  4 18:33 Contents.json
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon - App Store.imagestack/Front.imagestacklayer:
+total 8
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 .
+drwxr-xr-x  6 igor  staff  204 Nov  4 18:33 ..
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 Content.imageset
+-rw-r--r--@ 1 igor  staff   62 Nov  4 15:34 Contents.json
+	com.apple.TextEncoding	 15 
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon - App Store.imagestack/Front.imagestacklayer/Content.imageset:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 .
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 ..
+-rw-r--r--  1 igor  staff  193 Nov  4 18:33 Contents.json
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon - App Store.imagestack/Middle.imagestacklayer:
+total 8
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 .
+drwxr-xr-x  6 igor  staff  204 Nov  4 18:33 ..
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 Content.imageset
+-rw-r--r--@ 1 igor  staff   62 Nov  4 15:34 Contents.json
+	com.apple.TextEncoding	 15 
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon - App Store.imagestack/Middle.imagestacklayer/Content.imageset:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 .
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 ..
+-rw-r--r--  1 igor  staff  193 Nov  4 18:33 Contents.json
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon.imagestack:
+total 8
+drwxr-xr-x  6 igor  staff  204 Nov  4 18:33 .
+drwxr-xr-x  7 igor  staff  238 Nov  4 18:33 ..
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 Back.imagestacklayer
+-rw-r--r--@ 1 igor  staff  249 Nov  4 15:34 Contents.json
+	com.apple.TextEncoding	 15 
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 Front.imagestacklayer
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 Middle.imagestacklayer
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon.imagestack/Back.imagestacklayer:
+total 8
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 .
+drwxr-xr-x  6 igor  staff  204 Nov  4 18:33 ..
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 Content.imageset
+-rw-r--r--@ 1 igor  staff   62 Nov  4 15:34 Contents.json
+	com.apple.TextEncoding	 15 
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon.imagestack/Back.imagestacklayer/Content.imageset:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 .
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 ..
+-rw-r--r--  1 igor  staff  193 Nov  4 18:33 Contents.json
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon.imagestack/Front.imagestacklayer:
+total 8
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 .
+drwxr-xr-x  6 igor  staff  204 Nov  4 18:33 ..
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 Content.imageset
+-rw-r--r--@ 1 igor  staff   62 Nov  4 15:34 Contents.json
+	com.apple.TextEncoding	 15 
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon.imagestack/Front.imagestacklayer/Content.imageset:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 .
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 ..
+-rw-r--r--  1 igor  staff  193 Nov  4 18:33 Contents.json
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon.imagestack/Middle.imagestacklayer:
+total 8
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 .
+drwxr-xr-x  6 igor  staff  204 Nov  4 18:33 ..
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 Content.imageset
+-rw-r--r--@ 1 igor  staff   62 Nov  4 15:34 Contents.json
+	com.apple.TextEncoding	 15 
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/App Icon.imagestack/Middle.imagestacklayer/Content.imageset:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 .
+drwxr-xr-x  4 igor  staff  136 Nov  4 18:33 ..
+-rw-r--r--  1 igor  staff  193 Nov  4 18:33 Contents.json
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/Top Shelf Image Wide.imageset:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 .
+drwxr-xr-x  7 igor  staff  238 Nov  4 18:33 ..
+-rw-r--r--  1 igor  staff  193 Nov  4 18:33 Contents.json
+
+./tappa Shared/Assets.xcassets/tvOS App Icon & Top Shelf Image.brandassets/Top Shelf Image.imageset:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 .
+drwxr-xr-x  7 igor  staff  238 Nov  4 18:33 ..
+-rw-r--r--  1 igor  staff  193 Nov  4 18:33 Contents.json
+
+./tappa Shared/Assets.xcassets/tvOS LaunchImage.launchimage:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 18:33 .
+drwxr-xr-x  6 igor  staff  204 Nov 17 00:21 ..
+-rw-r--r--  1 igor  staff  408 Nov  4 18:33 Contents.json
+
+./tappa Shared/game:
+total 96
+drwxr-xr-x  17 igor  staff   578 Nov 20 23:07 .
+drwxr-xr-x  11 igor  staff   374 Nov 17 23:58 ..
+-rw-r--r--   1 igor  staff   327 Nov 16 13:19 DebugNode.h
+-rw-r--r--   1 igor  staff   734 Nov 16 13:19 DebugNode.m
+drwxr-xr-x   5 igor  staff   170 Nov  7 19:02 FSM
+-rw-r--r--@  1 igor  staff   476 Nov  7 23:07 TPBug.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 729 
+-rw-r--r--@  1 igor  staff  2905 Nov 20 23:07 TPBug.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 169 
+-rw-r--r--@  1 igor  staff   305 Nov 17 22:43 TPEmitter.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 137 
+-rw-r--r--@  1 igor  staff   850 Nov 17 22:43 TPEmitter.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 185 
+-rw-r--r--   1 igor  staff   489 Nov 16 13:19 TPEvent.h
+-rw-r--r--@  1 igor  staff   494 Nov  6 22:31 TPEvent.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 201 
+-rw-r--r--@  1 igor  staff   805 Nov 20 22:40 TPObject.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 105 
+-rw-r--r--   1 igor  staff  1776 Nov 16 13:19 TPObject.m
+-rw-r--r--@  1 igor  staff   488 Nov  4 15:52 TPSharedTextureAtlas.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 121 
+-rw-r--r--@  1 igor  staff   858 Nov  4 15:53 TPSharedTextureAtlas.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 137 
+drwxr-xr-x  10 igor  staff   340 Nov 20 22:49 states
+drwxr-xr-x   4 igor  staff   136 Nov  7 18:51 utils
+
+./tappa Shared/game/FSM:
+total 24
+drwxr-xr-x   5 igor  staff   170 Nov  7 19:02 .
+drwxr-xr-x  17 igor  staff   578 Nov 20 23:07 ..
+-rw-r--r--@  1 igor  staff   502 Nov  7 18:49 FSMStackMachine.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 249 
+-rw-r--r--@  1 igor  staff  2154 Nov  7 19:02 FSMStackMachine.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 793 
+-rw-r--r--@  1 igor  staff   668 Nov  7 18:46 FSMState.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 169 
+
+./tappa Shared/game/states:
+total 64
+drwxr-xr-x  10 igor  staff   340 Nov 20 22:49 .
+drwxr-xr-x  17 igor  staff   578 Nov 20 23:07 ..
+-rw-r--r--@  1 igor  staff   712 Nov  7 23:12 TPDeadState.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 105 
+-rw-r--r--@  1 igor  staff   856 Nov  7 23:13 TPDeadState.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 121 
+-rw-r--r--@  1 igor  staff   708 Nov  7 23:07 TPDieState.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 137 
+-rw-r--r--@  1 igor  staff  1012 Nov  7 23:14 TPDieState.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 249 
+-rw-r--r--@  1 igor  staff   710 Nov  7 19:21 TPRunState.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 281 
+-rw-r--r--@  1 igor  staff   796 Nov 13 22:26 TPRunState.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 441 
+-rw-r--r--@  1 igor  staff   712 Nov  7 19:44 TPTurnState.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 185 
+-rw-r--r--@  1 igor  staff  1444 Nov 20 22:49 TPTurnState.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 393 
+
+./tappa Shared/game/utils:
+total 16
+drwxr-xr-x   4 igor  staff   136 Nov  7 18:51 .
+drwxr-xr-x  17 igor  staff   578 Nov 20 23:07 ..
+-rw-r--r--@  1 igor  staff   496 Nov  7 18:51 Stack.h
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 169 
+-rw-r--r--@  1 igor  staff  1720 Nov  7 18:51 Stack.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 329 
+
+./tappa Shared/scenes:
+total 24
+drwxr-xr-x   4 igor  staff   136 Nov 20 22:48 .
+drwxr-xr-x  11 igor  staff   374 Nov 17 23:58 ..
+-rw-r--r--   1 igor  staff   360 Nov 16 13:19 BugsScene.h
+-rw-r--r--@  1 igor  staff  6507 Nov 20 22:48 BugsScene.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 201 
+
+./tappa iOS:
+total 64
+drwxr-xr-x  10 igor  staff   340 Nov  8 11:42 .
+drwxr-xr-x  14 igor  staff   476 Nov 20 23:28 ..
+-rw-r--r--@  1 igor  staff  6148 Nov  8 11:42 .DS_Store
+	com.apple.FinderInfo	  32 
+-rw-r--r--@  1 igor  staff   299 Nov  4 15:34 AppDelegate.h
+	com.apple.TextEncoding	  15 
+-rw-r--r--@  1 igor  staff  2033 Nov  4 15:34 AppDelegate.m
+	com.apple.TextEncoding	  15 
+drwxr-xr-x   4 igor  staff   136 Nov  5 16:00 Base.lproj
+-rw-r--r--@  1 igor  staff   287 Nov  4 15:34 GameViewController.h
+	com.apple.TextEncoding	  15 
+-rw-r--r--@  1 igor  staff  1054 Nov  5 15:54 GameViewController.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 169 
+-rw-r--r--   1 igor  staff  1502 Nov  4 15:34 Info.plist
+-rw-r--r--@  1 igor  staff   361 Nov  4 15:34 main.m
+	com.apple.TextEncoding	  15 
+
+./tappa iOS/Base.lproj:
+total 16
+drwxr-xr-x   4 igor  staff   136 Nov  5 16:00 .
+drwxr-xr-x  10 igor  staff   340 Nov  8 11:42 ..
+-rw-r--r--@  1 igor  staff  1739 Nov  5 16:00 LaunchScreen.storyboard
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	  89 
+-rw-r--r--@  1 igor  staff  1678 Nov  4 15:34 Main.storyboard
+	com.apple.TextEncoding	  15 
+
+./tappa macOS:
+total 64
+drwxr-xr-x  10 igor  staff   340 Nov  8 11:42 .
+drwxr-xr-x  14 igor  staff   476 Nov 20 23:28 ..
+-rw-r--r--@  1 igor  staff  6148 Nov  8 11:42 .DS_Store
+	com.apple.FinderInfo	  32 
+-rw-r--r--@  1 igor  staff   225 Nov  4 15:34 AppDelegate.h
+	com.apple.TextEncoding	  15 
+-rw-r--r--@  1 igor  staff   584 Nov  4 15:34 AppDelegate.m
+	com.apple.TextEncoding	  15 
+drwxr-xr-x   3 igor  staff   102 Nov  4 15:34 Base.lproj
+-rw-r--r--@  1 igor  staff   290 Nov  4 15:34 GameViewController.h
+	com.apple.TextEncoding	  15 
+-rw-r--r--@  1 igor  staff   607 Nov  5 15:54 GameViewController.m
+	com.apple.metadata:kMDLabel_n5izyn33vi2zq42hgofqbmvd3i	 169 
+-rw-r--r--   1 igor  staff  1053 Nov  4 15:34 Info.plist
+-rw-r--r--@  1 igor  staff   238 Nov  4 15:34 main.m
+	com.apple.TextEncoding	  15 
+
+./tappa macOS/Base.lproj:
+total 120
+drwxr-xr-x   3 igor  staff    102 Nov  4 15:34 .
+drwxr-xr-x  10 igor  staff    340 Nov  8 11:42 ..
+-rw-r--r--@  1 igor  staff  60532 Nov  4 15:34 Main.storyboard
+	com.apple.TextEncoding	   15 
+
+./tappa.xcodeproj:
+total 96
+drwxr-xr-x@  5 igor  staff    170 Nov 20 23:24 .
+	LastUpgradeCheck	    4 
+drwxr-xr-x  14 igor  staff    476 Nov 20 23:28 ..
+-rw-r--r--   1 igor  staff  45532 Nov 20 23:24 project.pbxproj
+drwxr-xr-x   4 igor  staff    136 Nov  4 15:34 project.xcworkspace
+drwxr-xr-x   3 igor  staff    102 Nov  4 15:34 xcuserdata
+
+./tappa.xcodeproj/project.xcworkspace:
+total 8
+drwxr-xr-x  4 igor  staff  136 Nov  4 15:34 .
+drwxr-xr-x@ 5 igor  staff  170 Nov 20 23:24 ..
+	LastUpgradeCheck	  4 
+-rw-r--r--  1 igor  staff  150 Nov  4 15:34 contents.xcworkspacedata
+drwxr-xr-x  3 igor  staff  102 Nov  4 15:34 xcuserdata
+
+./tappa.xcodeproj/project.xcworkspace/xcuserdata:
+total 0
+drwxr-xr-x  3 igor  staff  102 Nov  4 15:34 .
+drwxr-xr-x  4 igor  staff  136 Nov  4 15:34 ..
+drwxr-xr-x  3 igor  staff  102 Nov 20 23:27 igor.xcuserdatad
+
+./tappa.xcodeproj/project.xcworkspace/xcuserdata/igor.xcuserdatad:
+total 240
+drwxr-xr-x  3 igor  staff     102 Nov 20 23:27 .
+drwxr-xr-x  3 igor  staff     102 Nov  4 15:34 ..
+-rw-r--r--  1 igor  staff  121175 Nov 20 23:27 UserInterfaceState.xcuserstate
+
+./tappa.xcodeproj/xcuserdata:
+total 0
+drwxr-xr-x  3 igor  staff  102 Nov  4 15:34 .
+drwxr-xr-x@ 5 igor  staff  170 Nov 20 23:24 ..
+	LastUpgradeCheck	  4 
+drwxr-xr-x  4 igor  staff  136 Nov  5 00:04 igor.xcuserdatad
+
+./tappa.xcodeproj/xcuserdata/igor.xcuserdatad:
+total 0
+drwxr-xr-x  4 igor  staff  136 Nov  5 00:04 .
+drwxr-xr-x  3 igor  staff  102 Nov  4 15:34 ..
+drwxr-xr-x  3 igor  staff  102 Nov  8 00:25 xcdebugger
+drwxr-xr-x  3 igor  staff  102 Nov  4 15:34 xcschemes
+
+./tappa.xcodeproj/xcuserdata/igor.xcuserdatad/xcdebugger:
+total 8
+drwxr-xr-x  3 igor  staff   102 Nov  8 00:25 .
+drwxr-xr-x  4 igor  staff   136 Nov  5 00:04 ..
+-rw-r--r--  1 igor  staff  2066 Nov  8 00:25 Breakpoints_v2.xcbkptlist
+
+./tappa.xcodeproj/xcuserdata/igor.xcuserdatad/xcschemes:
+total 8
+drwxr-xr-x  3 igor  staff  102 Nov  4 15:34 .
+drwxr-xr-x  4 igor  staff  136 Nov  5 00:04 ..
+-rw-r--r--  1 igor  staff  433 Nov  4 15:34 xcschememanagement.plist
