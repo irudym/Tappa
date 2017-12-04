@@ -8,18 +8,23 @@
 
 #import "BugsScene.h"
 #import "../game/states/TPRunState.h"
+#import "TPBugGenerator.h"
 
 #import "DebugNode.h"
 
 @implementation BugsScene
-
 {
     TPBug *bug1, *bug2;
     NSMutableArray* bugs;
     DebugNode* debugNode;
     CGPoint leftBottomEdge;
     CGPoint rightTopEdge;
+    CGPoint screenCenter;
+    CGSize bugSize;
+    TPBugGenerator *bugGenerator;
 }
+
+@synthesize maximumBugs;
 
 + (BugsScene *)newGameScene {
     // Load 'BugsScene.sks' as an SKScene.
@@ -33,7 +38,10 @@
     scene.sceneObjects = [NSMutableArray array];
     
     // Set the scale mode to scale to fit the window
+//#if TARGET_OS_OSX
     scene.scaleMode = SKSceneScaleModeAspectFill;
+//#endif
+    
     return scene;
 }
 
@@ -41,43 +49,39 @@
     
     NSLog(@"BugScene: setUpScene");
     
-    leftBottomEdge = CGPointMake(-self.size.width*self.anchorPoint.x+1, -self.size.height*self.anchorPoint.y+1);
-    rightTopEdge = CGPointMake(self.size.width*self.anchorPoint.x-1, self.size.height*self.anchorPoint.y-1);
+    //setup screen coordinates
+    leftBottomEdge = CGPointMake(-self.size.width*self.anchorPoint.x, -self.size.height*self.anchorPoint.y);
+    rightTopEdge = CGPointMake(self.size.width*self.anchorPoint.x, self.size.height*self.anchorPoint.y);
+    screenCenter = CGPointMake(leftBottomEdge.x + self.size.width/2,
+                               leftBottomEdge.y + self.size.height/2);
+    
+    //TODO: need to load a sample sprite and set actual size
+    bugSize = CGSizeMake(416, 500);
+    
+    //Initialize bug generator
+    bugGenerator = [[TPBugGenerator alloc] initWithScreenSize:self.size andScreenAnchor:self.anchorPoint andSpriteSize:bugSize];
+    
     
     NSLog(@"Scene position: (%f, %f) and size: (%f, %f)", self.position.x, self.position.y, self.size.width, self.size.height);
     debugNode = [DebugNode createWithPosition:CGPointMake(-self.size.width/2+1, -self.size.height/2+1) andSize:CGSizeMake(self.size.width-1, self.size.height-1)];
     [self addChild:debugNode];
     
     //load textures
+//#if TARGET_OS_OSX
     [TPSharedTextureAtlas loadAtlas:@"Bugs"];
+    //[TPSharedTextureAtlas loadAtlas:@"Bugs"];
+//#endif
     
-    bugs = [NSMutableArray array];
-    
-    bug1 = [[TPBug alloc] initWithName:@"bug1" AndPosition:CGPointMake(100, 100)];
-    [bug1 setAngle:-90*3.1427/180];
-    [[bug1 stateMachine] pushState:[TPRunState createState]];
-    [self addChild:bug1];
-    
-    bug2 = [[TPBug alloc] initWithName:@"bug2" AndPosition:CGPointMake(-200, 0)];
-    [bug2 setAngle:-45*3.1427/180];
+    /*
+    bug2 = [[TPBug alloc] initWithName:@"bug2" AndPosition:CGPointMake(0, 0)];
+    [bug2 setAngle:90];
     [[bug2 stateMachine] pushState:[TPRunState createState]];
-    [bug2 setSpeed:600];
-    [self addChild:bug2];
+    [bug2 setObjectSpeed:850.0f];
     
-    TPBug* bug3 = [[TPBug alloc] initWithName:@"bug1" AndPosition:CGPointMake(0, 0)];
-    [bug3 setAngle:-85*3.1427/180];
-    [[bug3 stateMachine] pushState:[TPRunState createState]];
-    [self addChild:bug3];
+    [self addBug:bug2];
+     */
     
-    TPBug* bug4 = [[TPBug alloc] initWithName:@"bug2" AndPosition:CGPointMake(200, 0)];
-    [bug4 setAngle:45*3.1427/180];
-    [[bug4 stateMachine] pushState:[TPRunState createState]];
-    [bug4 setSpeed: 600];
-    [self addChild:bug4];
-    
-    
-    [_sceneObjects addObjectsFromArray:@[bug1, bug2, bug3, bug4]];
-    
+    [self setMaximumBugs:4];
     
     // Get label node from scene and store it for use later
     //_label = (SKLabelNode *)[self childNodeWithName:@"//helloLabel"];
@@ -100,6 +104,11 @@
     [self setUpScene];
 }
 #endif
+
+-(void) addBug: (TPBug*) bug {
+    [self addChild:bug];
+    [_sceneObjects addObject:bug];
+}
 
 
 -(void)update:(CFTimeInterval)currentTime {
@@ -138,6 +147,19 @@
     }
     
     if ([deadIndexes count] >0) [self.sceneObjects removeObjectsAtIndexes: deadIndexes];
+    
+    //add new bugs
+    //TODO: it could be implemented mutu-threaded, however it's a rare case when two or more bugs should be
+    //added to the scene
+    while(self.maximumBugs > self.sceneObjects.count) {
+        [self generateBug];
+    }
+}
+
+-(void)generateBug {
+    TPBug *bug  = [bugGenerator generate];
+    NSLog(@"Add new bug at position: (%f, %f) with angle: %f", bug.position.x, bug.position.y, bug.objectAngle);
+    [self addBug:bug];
 }
 
 -(void) tapAtPoint: (CGPoint) point {

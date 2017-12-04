@@ -13,14 +13,14 @@
 @interface TPObject : SKSpriteNode
 
 @property CGVector currentDirection;
-@property CGFloat speed;
+@property CGFloat objectSpeed;
 @property BOOL deadMark;
+@property CGFloat objectAngle;
 
 //stateMachine
 @property FSMStackMachine* stateMachine;
 
 -(void) setFrame: (SKTexture*) frame;
--(void) setAngle: (CGFloat) angle;
 
 //process events
 -(void) handleEvent: (TPEvent*) event;
@@ -39,7 +39,7 @@
 
 -(void) fixPosition;
 
-
+-(void) setAngle: (CGFloat)angle;
 
 //utils
 -(BOOL) isDead;

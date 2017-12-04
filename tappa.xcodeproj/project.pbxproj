@@ -11,20 +11,30 @@
 		784817781FAF40860021D0FA /* BugsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 784817761FAF40860021D0FA /* BugsScene.m */; };
 		7848177B1FAF49B60021D0FA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7848177A1FAF448E0021D0FA /* GameScene.m */; };
 		7848177C1FAF49B60021D0FA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7848177A1FAF448E0021D0FA /* GameScene.m */; };
+		787059091FCF4FD400C22C4C /* TPBugGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 787059081FCF4FD400C22C4C /* TPBugGenerator.m */; };
+		7870590A1FCF4FD400C22C4C /* TPBugGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 787059081FCF4FD400C22C4C /* TPBugGenerator.m */; };
 		788018A11FBD910C00011A18 /* DebugNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 788018A01FBD910C00011A18 /* DebugNode.m */; };
 		788018A21FBD910C00011A18 /* DebugNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 788018A01FBD910C00011A18 /* DebugNode.m */; };
 		788018A81FBE276800011A18 /* bug-tap.sks in Resources */ = {isa = PBXBuildFile; fileRef = 788018A71FBE276800011A18 /* bug-tap.sks */; };
 		788018A91FBE276800011A18 /* bug-tap.sks in Resources */ = {isa = PBXBuildFile; fileRef = 788018A71FBE276800011A18 /* bug-tap.sks */; };
-		788018AF1FBE2C6900011A18 /* bug-tap2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 788018AD1FBE2C6900011A18 /* bug-tap2.sks */; };
-		788018B01FBE2C6900011A18 /* bug-tap2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 788018AD1FBE2C6900011A18 /* bug-tap2.sks */; };
 		788018B11FBE2C6900011A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788018AE1FBE2C6900011A18 /* Assets.xcassets */; };
 		788018B21FBE2C6900011A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788018AE1FBE2C6900011A18 /* Assets.xcassets */; };
 		788018B51FBF711A00011A18 /* TPEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 788018B41FBF711A00011A18 /* TPEmitter.m */; };
 		788018B61FBF711A00011A18 /* TPEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 788018B41FBF711A00011A18 /* TPEmitter.m */; };
 		788018B81FBF84F900011A18 /* flower-r.png in Resources */ = {isa = PBXBuildFile; fileRef = 788018B71FBF84F900011A18 /* flower-r.png */; };
 		788018B91FBF84F900011A18 /* flower-r.png in Resources */ = {isa = PBXBuildFile; fileRef = 788018B71FBF84F900011A18 /* flower-r.png */; };
-		78A541261FC37568005F7D5E /* Bugs.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78A541251FC37568005F7D5E /* Bugs.atlas */; };
-		78A541271FC37568005F7D5E /* Bugs.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78A541251FC37568005F7D5E /* Bugs.atlas */; };
+		78A541291FC4B7A6005F7D5E /* daisy.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A541281FC4B7A5005F7D5E /* daisy.png */; };
+		78A5412A1FC4B7A6005F7D5E /* daisy.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A541281FC4B7A5005F7D5E /* daisy.png */; };
+		78A5412C1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78A5412B1FC4B7ED005F7D5E /* bug-tap2.sks */; };
+		78A5412D1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78A5412B1FC4B7ED005F7D5E /* bug-tap2.sks */; };
+		78A541311FC4C355005F7D5E /* TPBlueBug.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A541301FC4C355005F7D5E /* TPBlueBug.m */; };
+		78A541321FC4C355005F7D5E /* TPBlueBug.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A541301FC4C355005F7D5E /* TPBlueBug.m */; };
+		78A541341FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78A541331FC5F34C005F7D5E /* Bugs@2x.atlas */; };
+		78A541351FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78A541331FC5F34C005F7D5E /* Bugs@2x.atlas */; };
+		78A541371FC5F3E7005F7D5E /* Bugs.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78A541361FC5F3E6005F7D5E /* Bugs.atlas */; };
+		78A541381FC5F3E7005F7D5E /* Bugs.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78A541361FC5F3E6005F7D5E /* Bugs.atlas */; };
+		78A5413B1FC5FDC8005F7D5E /* TPRedFly.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5413A1FC5FDC8005F7D5E /* TPRedFly.m */; };
+		78A5413C1FC5FDC8005F7D5E /* TPRedFly.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5413A1FC5FDC8005F7D5E /* TPRedFly.m */; };
 		78AE83621FADEB5D003B1A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE83611FADEB5D003B1A34 /* AppDelegate.m */; };
 		78AE83651FADEB5D003B1A34 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE83641FADEB5D003B1A34 /* GameViewController.m */; };
 		78AE83681FADEB5D003B1A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AE83661FADEB5D003B1A34 /* Main.storyboard */; };
@@ -67,15 +77,23 @@
 		784817761FAF40860021D0FA /* BugsScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugsScene.m; sourceTree = "<group>"; };
 		784817791FAF448E0021D0FA /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		7848177A1FAF448E0021D0FA /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		787059071FCF4FD400C22C4C /* TPBugGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPBugGenerator.h; sourceTree = "<group>"; };
+		787059081FCF4FD400C22C4C /* TPBugGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPBugGenerator.m; sourceTree = "<group>"; };
 		7880189F1FBD910C00011A18 /* DebugNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugNode.h; sourceTree = "<group>"; };
 		788018A01FBD910C00011A18 /* DebugNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugNode.m; sourceTree = "<group>"; };
 		788018A71FBE276800011A18 /* bug-tap.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "bug-tap.sks"; sourceTree = "<group>"; };
-		788018AD1FBE2C6900011A18 /* bug-tap2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "bug-tap2.sks"; sourceTree = "<group>"; };
 		788018AE1FBE2C6900011A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		788018B31FBF711A00011A18 /* TPEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPEmitter.h; sourceTree = "<group>"; };
 		788018B41FBF711A00011A18 /* TPEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPEmitter.m; sourceTree = "<group>"; };
 		788018B71FBF84F900011A18 /* flower-r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower-r.png"; sourceTree = "<group>"; };
-		78A541251FC37568005F7D5E /* Bugs.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Bugs.atlas; sourceTree = "<group>"; };
+		78A541281FC4B7A5005F7D5E /* daisy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daisy.png; sourceTree = "<group>"; };
+		78A5412B1FC4B7ED005F7D5E /* bug-tap2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "bug-tap2.sks"; sourceTree = "<group>"; };
+		78A5412F1FC4C355005F7D5E /* TPBlueBug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPBlueBug.h; sourceTree = "<group>"; };
+		78A541301FC4C355005F7D5E /* TPBlueBug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPBlueBug.m; sourceTree = "<group>"; };
+		78A541331FC5F34C005F7D5E /* Bugs@2x.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Bugs@2x.atlas"; sourceTree = "<group>"; };
+		78A541361FC5F3E6005F7D5E /* Bugs.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Bugs.atlas; sourceTree = "<group>"; };
+		78A541391FC5FDC8005F7D5E /* TPRedFly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPRedFly.h; sourceTree = "<group>"; };
+		78A5413A1FC5FDC8005F7D5E /* TPRedFly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPRedFly.m; sourceTree = "<group>"; };
 		78AE83541FADEB5D003B1A34 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		78AE83551FADEB5D003B1A34 /* BugsScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BugsScene.sks; sourceTree = "<group>"; };
 		78AE83581FADEB5D003B1A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,15 +167,26 @@
 		788018A31FBE264400011A18 /* particles */ = {
 			isa = PBXGroup;
 			children = (
+				78A541281FC4B7A5005F7D5E /* daisy.png */,
 				788018B71FBF84F900011A18 /* flower-r.png */,
 			);
 			path = particles;
 			sourceTree = "<group>";
 		};
+		78A5412E1FC4C337005F7D5E /* bugs */ = {
+			isa = PBXGroup;
+			children = (
+				78A5412F1FC4C355005F7D5E /* TPBlueBug.h */,
+				78A541301FC4C355005F7D5E /* TPBlueBug.m */,
+				78A541391FC5FDC8005F7D5E /* TPRedFly.h */,
+				78A5413A1FC5FDC8005F7D5E /* TPRedFly.m */,
+			);
+			path = bugs;
+			sourceTree = "<group>";
+		};
 		78AE834E1FADEB5C003B1A34 = {
 			isa = PBXGroup;
 			children = (
-				788018AD1FBE2C6900011A18 /* bug-tap2.sks */,
 				788018AE1FBE2C6900011A18 /* Assets.xcassets */,
 				78AE839E1FAE23AE003B1A34 /* resources */,
 				78AE83531FADEB5D003B1A34 /* tappa Shared */,
@@ -178,6 +207,7 @@
 				78AE83551FADEB5D003B1A34 /* BugsScene.sks */,
 				78AE83581FADEB5D003B1A34 /* Assets.xcassets */,
 				788018A71FBE276800011A18 /* bug-tap.sks */,
+				78A5412B1FC4B7ED005F7D5E /* bug-tap2.sks */,
 			);
 			path = "tappa Shared";
 			sourceTree = "<group>";
@@ -223,6 +253,7 @@
 		78AE83911FADEC87003B1A34 /* game */ = {
 			isa = PBXGroup;
 			children = (
+				78A5412E1FC4C337005F7D5E /* bugs */,
 				78CF8D281FB2065E00233F18 /* utils */,
 				78CF8D221FB2045600233F18 /* FSM */,
 				78CF8D191FB0EACD00233F18 /* states */,
@@ -238,6 +269,8 @@
 				788018A01FBD910C00011A18 /* DebugNode.m */,
 				788018B31FBF711A00011A18 /* TPEmitter.h */,
 				788018B41FBF711A00011A18 /* TPEmitter.m */,
+				787059071FCF4FD400C22C4C /* TPBugGenerator.h */,
+				787059081FCF4FD400C22C4C /* TPBugGenerator.m */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -245,7 +278,8 @@
 		78AE839E1FAE23AE003B1A34 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				78A541251FC37568005F7D5E /* Bugs.atlas */,
+				78A541361FC5F3E6005F7D5E /* Bugs.atlas */,
+				78A541331FC5F34C005F7D5E /* Bugs@2x.atlas */,
 				788018A31FBE264400011A18 /* particles */,
 			);
 			name = resources;
@@ -365,12 +399,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A541261FC37568005F7D5E /* Bugs.atlas in Resources */,
 				78AE83831FADEB5D003B1A34 /* BugsScene.sks in Resources */,
-				788018AF1FBE2C6900011A18 /* bug-tap2.sks in Resources */,
+				78A541291FC4B7A6005F7D5E /* daisy.png in Resources */,
+				78A541371FC5F3E7005F7D5E /* Bugs.atlas in Resources */,
 				788018A81FBE276800011A18 /* bug-tap.sks in Resources */,
+				78A5412C1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */,
 				788018B11FBE2C6900011A18 /* Assets.xcassets in Resources */,
 				78AE83681FADEB5D003B1A34 /* Main.storyboard in Resources */,
+				78A541341FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */,
 				78AE83811FADEB5D003B1A34 /* Actions.sks in Resources */,
 				788018B81FBF84F900011A18 /* flower-r.png in Resources */,
 				78AE836B1FADEB5D003B1A34 /* LaunchScreen.storyboard in Resources */,
@@ -382,13 +418,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A5412A1FC4B7A6005F7D5E /* daisy.png in Resources */,
 				788018A91FBE276800011A18 /* bug-tap.sks in Resources */,
 				78AE837D1FADEB5D003B1A34 /* Main.storyboard in Resources */,
+				78A5412D1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */,
 				78AE83841FADEB5D003B1A34 /* BugsScene.sks in Resources */,
-				788018B01FBE2C6900011A18 /* bug-tap2.sks in Resources */,
+				78A541381FC5F3E7005F7D5E /* Bugs.atlas in Resources */,
 				78AE83881FADEB5D003B1A34 /* Assets.xcassets in Resources */,
-				78A541271FC37568005F7D5E /* Bugs.atlas in Resources */,
 				788018B21FBE2C6900011A18 /* Assets.xcassets in Resources */,
+				78A541351FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */,
 				788018B91FBF84F900011A18 /* flower-r.png in Resources */,
 				78AE83821FADEB5D003B1A34 /* Actions.sks in Resources */,
 			);
@@ -404,6 +442,7 @@
 				78CF8D131FB0E71F00233F18 /* TPObject.m in Sources */,
 				78CF8D2B1FB2068C00233F18 /* Stack.m in Sources */,
 				78CF8D2F1FB214F800233F18 /* TPDieState.m in Sources */,
+				78A5413B1FC5FDC8005F7D5E /* TPRedFly.m in Sources */,
 				788018A11FBD910C00011A18 /* DebugNode.m in Sources */,
 				78AE83651FADEB5D003B1A34 /* GameViewController.m in Sources */,
 				78AE836E1FADEB5D003B1A34 /* main.m in Sources */,
@@ -412,7 +451,9 @@
 				78CF8D201FB10B1900233F18 /* TPTurnState.m in Sources */,
 				78CF8D171FB0E88700233F18 /* TPEvent.m in Sources */,
 				7848177B1FAF49B60021D0FA /* GameScene.m in Sources */,
+				787059091FCF4FD400C22C4C /* TPBugGenerator.m in Sources */,
 				78AE83621FADEB5D003B1A34 /* AppDelegate.m in Sources */,
+				78A541311FC4C355005F7D5E /* TPBlueBug.m in Sources */,
 				78AE83991FADEF33003B1A34 /* TPSharedTextureAtlas.m in Sources */,
 				78CF8D261FB205D700233F18 /* FSMStackMachine.m in Sources */,
 				78AE83951FADED22003B1A34 /* TPBug.m in Sources */,
@@ -428,6 +469,7 @@
 				78CF8D141FB0E71F00233F18 /* TPObject.m in Sources */,
 				78CF8D2C1FB2068C00233F18 /* Stack.m in Sources */,
 				78CF8D301FB214F800233F18 /* TPDieState.m in Sources */,
+				78A5413C1FC5FDC8005F7D5E /* TPRedFly.m in Sources */,
 				788018A21FBD910C00011A18 /* DebugNode.m in Sources */,
 				78AE837A1FADEB5D003B1A34 /* GameViewController.m in Sources */,
 				78AE83801FADEB5D003B1A34 /* main.m in Sources */,
@@ -436,7 +478,9 @@
 				78CF8D211FB10B1900233F18 /* TPTurnState.m in Sources */,
 				78CF8D181FB0E88700233F18 /* TPEvent.m in Sources */,
 				7848177C1FAF49B60021D0FA /* GameScene.m in Sources */,
+				7870590A1FCF4FD400C22C4C /* TPBugGenerator.m in Sources */,
 				78AE83771FADEB5D003B1A34 /* AppDelegate.m in Sources */,
+				78A541321FC4C355005F7D5E /* TPBlueBug.m in Sources */,
 				78AE839A1FADEF33003B1A34 /* TPSharedTextureAtlas.m in Sources */,
 				78CF8D271FB205D700233F18 /* FSMStackMachine.m in Sources */,
 				78AE83961FADED22003B1A34 /* TPBug.m in Sources */,

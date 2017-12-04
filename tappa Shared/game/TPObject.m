@@ -11,7 +11,7 @@
 @implementation TPObject
 
 @synthesize currentDirection;
-@synthesize speed;
+@synthesize objectSpeed;
 @synthesize stateMachine;
 
 /*
@@ -31,10 +31,10 @@
 }
 
 -(void) setAngle:(CGFloat)angle {
-    [self setCurrentDirection: [TPObject rotateVector:self.currentDirection ByAngle:angle]];
-    [self setZRotation: angle];
+    [self setObjectAngle:angle];
+    [self setCurrentDirection: [TPObject rotateVector:self.currentDirection ByAngle:angle*3.1427/180]];
+    [self setZRotation: angle*3.1427/180];
 }
-
 
 #pragma mark State Machine operation
 

@@ -18,6 +18,12 @@
 // Handle
 -(void) tapAtPoint: (CGPoint) point;
 
+-(void) addBug: (TPBug*) bug;
+
+-(void)generateBug;
+
+
 @property NSMutableArray *sceneObjects;
+@property NSUInteger maximumBugs; 
 
 @end

@@ -33,7 +33,7 @@
     [self load];
     [self setCurrentDirection: CGVectorMake(0,1)]; // UP
     self.anchorPoint = CGPointMake(0.5,0.5);
-    [self setSpeed:400.0f];
+    [self setObjectSpeed:400.0f];
     
     self.deadMark = FALSE;
     
@@ -51,11 +51,11 @@
     SKTexture* frame;
     _runFrames = [NSMutableArray array];
     for(int i=1; i<9; i++) {
-        NSLog(@"load image: %@-run-%d.png", self.name, i);
+        //NSLog(@"load image: %@-run-%d.png", self.name, i);
         frame = [atlas textureNamed: [NSString stringWithFormat:@"%@-run-%d.png", self.name, i]];
         //frame.filteringMode = SKTextureFilteringNearest;
         [_runFrames addObject:frame];
-        NSLog(@"==> OK!");
+        //NSLog(@"==> OK!");
     }
     
     //define actions
@@ -68,11 +68,12 @@
 
 -(void) run {
     float x = 3000;
-    // float y = 3000;
     float dx = self.currentDirection.dx*x;
     float dy = self.currentDirection.dy*x;
     // NSLog(@"Run BUG by direction (%f, %f) by (%f, %f)",self.currentDirection.dx, self.currentDirection.dy, dx, dy);
-    [self runAction: [SKAction moveBy:CGVectorMake(dx, dy) duration: x/self.speed]];
+    // NSLog(@"BUG: [%@] run with speed: %f", self.name, self.objectSpeed);
+    
+    [self runAction: [SKAction moveBy:CGVectorMake(dx, dy) duration: x/self.objectSpeed]];
     [self runAction: [SKAction repeatActionForever: _runAction]];
 }
 
@@ -94,9 +95,10 @@
     
     //emit particles
     [TPEmitter createEmitterWithName:@"bug-tap" andPosition:self.position andParent:self.parent];
+    [TPEmitter createEmitterWithName:@"bug-tap2" andPosition:self.position andParent:self.parent];
     
     //play die animation
-    [self runAction: [SKAction fadeOutWithDuration:1.5] withKey:@"dying"];
+    [self runAction: [SKAction fadeOutWithDuration:1.0] withKey:@"dying"];
 }
 
 @end
