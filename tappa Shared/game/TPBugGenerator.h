@@ -11,6 +11,7 @@
 #import "TPBug.h"
 #import "bugs/TPBlueBug.h"
 #import "bugs/TPRedFly.h"
+#import "bugs/TPDragonfly.h"
 
 @interface TPBugGenerator : NSObject
 

@@ -73,13 +73,16 @@
     CGPoint position = [self getPositionByX:arc4random_uniform((int)(_screenSize.width + _spriteSize.height)) - _spriteSize.height/2+_leftBottomEdge.x];
     CGFloat angle = [self getAngleByPosition:position];
     //NSLog(@"Generate bug at position: (%f, %f) with angle: %f", position.x, position.y, angle);
-    NSUInteger bugId = arc4random_uniform(2);
+    NSUInteger bugId = arc4random_uniform(3);
     switch(bugId) {
         case 0:
             bug = [TPBlueBug createBlueBugAtPosition:position andAngle:angle];
             break;
         case 1:
             bug = [TPRedFly createBlueBugAtPosition:position andAngle:angle];
+            break;
+        case 2:
+            bug = [TPDragonfly createDragonflyAtPosition:position andAngle:angle];
             break;
     }
     return bug;

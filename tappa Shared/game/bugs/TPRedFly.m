@@ -14,7 +14,7 @@
 +(id) createBlueBugAtPosition: (CGPoint) position andAngle: (CGFloat) angle {
     TPBug* bug = [[TPBug alloc] initWithName:@"bug2" AndPosition: position];
     [bug setAngle: angle];
-    [bug setObjectSpeed:850.0f];
+    [bug setObjectSpeed:650.0f];
     
     [[bug stateMachine] pushState:[TPRunState createState]];
     return bug;

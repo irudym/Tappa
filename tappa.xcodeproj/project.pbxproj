@@ -23,6 +23,8 @@
 		788018B61FBF711A00011A18 /* TPEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 788018B41FBF711A00011A18 /* TPEmitter.m */; };
 		788018B81FBF84F900011A18 /* flower-r.png in Resources */ = {isa = PBXBuildFile; fileRef = 788018B71FBF84F900011A18 /* flower-r.png */; };
 		788018B91FBF84F900011A18 /* flower-r.png in Resources */ = {isa = PBXBuildFile; fileRef = 788018B71FBF84F900011A18 /* flower-r.png */; };
+		789E17D91FEEBD5700D1DBD2 /* TPDragonfly.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */; };
+		789E17DA1FEEBD5700D1DBD2 /* TPDragonfly.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */; };
 		78A541291FC4B7A6005F7D5E /* daisy.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A541281FC4B7A5005F7D5E /* daisy.png */; };
 		78A5412A1FC4B7A6005F7D5E /* daisy.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A541281FC4B7A5005F7D5E /* daisy.png */; };
 		78A5412C1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78A5412B1FC4B7ED005F7D5E /* bug-tap2.sks */; };
@@ -86,6 +88,8 @@
 		788018B31FBF711A00011A18 /* TPEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPEmitter.h; sourceTree = "<group>"; };
 		788018B41FBF711A00011A18 /* TPEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPEmitter.m; sourceTree = "<group>"; };
 		788018B71FBF84F900011A18 /* flower-r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower-r.png"; sourceTree = "<group>"; };
+		789E17D71FEEBD5700D1DBD2 /* TPDragonfly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPDragonfly.h; sourceTree = "<group>"; };
+		789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPDragonfly.m; sourceTree = "<group>"; };
 		78A541281FC4B7A5005F7D5E /* daisy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daisy.png; sourceTree = "<group>"; };
 		78A5412B1FC4B7ED005F7D5E /* bug-tap2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "bug-tap2.sks"; sourceTree = "<group>"; };
 		78A5412F1FC4C355005F7D5E /* TPBlueBug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPBlueBug.h; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 				78A541301FC4C355005F7D5E /* TPBlueBug.m */,
 				78A541391FC5FDC8005F7D5E /* TPRedFly.h */,
 				78A5413A1FC5FDC8005F7D5E /* TPRedFly.m */,
+				789E17D71FEEBD5700D1DBD2 /* TPDragonfly.h */,
+				789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */,
 			);
 			path = bugs;
 			sourceTree = "<group>";
@@ -454,6 +460,7 @@
 				787059091FCF4FD400C22C4C /* TPBugGenerator.m in Sources */,
 				78AE83621FADEB5D003B1A34 /* AppDelegate.m in Sources */,
 				78A541311FC4C355005F7D5E /* TPBlueBug.m in Sources */,
+				789E17D91FEEBD5700D1DBD2 /* TPDragonfly.m in Sources */,
 				78AE83991FADEF33003B1A34 /* TPSharedTextureAtlas.m in Sources */,
 				78CF8D261FB205D700233F18 /* FSMStackMachine.m in Sources */,
 				78AE83951FADED22003B1A34 /* TPBug.m in Sources */,
@@ -481,6 +488,7 @@
 				7870590A1FCF4FD400C22C4C /* TPBugGenerator.m in Sources */,
 				78AE83771FADEB5D003B1A34 /* AppDelegate.m in Sources */,
 				78A541321FC4C355005F7D5E /* TPBlueBug.m in Sources */,
+				789E17DA1FEEBD5700D1DBD2 /* TPDragonfly.m in Sources */,
 				78AE839A1FADEF33003B1A34 /* TPSharedTextureAtlas.m in Sources */,
 				78CF8D271FB205D700233F18 /* FSMStackMachine.m in Sources */,
 				78AE83961FADED22003B1A34 /* TPBug.m in Sources */,
