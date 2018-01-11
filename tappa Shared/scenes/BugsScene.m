@@ -9,6 +9,8 @@
 #import "BugsScene.h"
 #import "../game/states/TPRunState.h"
 #import "TPBugGenerator.h"
+#import "../game/ui/UIComponent.h"
+#import "../game/ui/UI.h";
 
 #import "DebugNode.h"
 
@@ -22,6 +24,7 @@
     CGPoint screenCenter;
     CGSize bugSize;
     TPBugGenerator *bugGenerator;
+    UI* mainUI;
 }
 
 @synthesize maximumBugs;
@@ -69,7 +72,7 @@
     //load textures
 //#if TARGET_OS_OSX
     [TPSharedTextureAtlas loadAtlas:@"Bugs"];
-    //[TPSharedTextureAtlas loadAtlas:@"Bugs"];
+    [TPSharedTextureAtlas loadAtlas:@"ui"];
 //#endif
     
     /*
@@ -88,7 +91,31 @@
     //_label.alpha = 0.0;
     //[_label runAction:[SKAction fadeInWithDuration:2.0]];
     
+    //setup UI
+    SKTextureAtlas* uiAtlas = [TPSharedTextureAtlas getAtlasByName:@"ui"];
     
+    /*
+    UIComponent* homeButtonPosition = (UIComponent*)[self childNodeWithName:@"//homeButton"];
+    CGPoint buttonPos = CGPointMake(0, 0);
+    if(homeButtonPosition == nil) {
+        NSLog(@"Cannot find home button on the scene!");
+    } else {
+        buttonPos = homeButtonPosition.position;
+    }
+    UIComponent* homeButton = [UIComponent createWithTexture:[uiAtlas textureNamed:@"home-button.png"]];
+    [homeButton setPosition:buttonPos];
+    [self addChild:homeButton];
+     */
+    mainUI = [[UI alloc] init];
+    UIComponent* homeButton = (UIComponent*)[self childNodeWithName:@"//homeButton"];
+    if(homeButton == nil) {
+        NSLog(@"Cannot find home button on the scene!");
+    }
+    [homeButton removeFromParent];
+    [homeButton setFocusable:YES];
+    [mainUI addChild:homeButton];
+    
+    [self addChild:mainUI];
     
 #if TARGET_OS_WATCH
 #endif
@@ -178,7 +205,9 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     for (UITouch *t in touches) {
-        [self tapAtPoint:[t locationInNode: self]];
+        CGPoint pos = [t locationInNode: self];
+        [self tapAtPoint:pos];
+        [mainUI touchesBegan:pos];
     }
     
 }
@@ -191,7 +220,12 @@
     //for (UITouch *t in touches) {
     //    [self makeSpinnyAtPoint:[t locationInNode:self] color:[SKColor redColor]];
     //}
+    for (UITouch *t in touches) {
+        CGPoint pos = [t locationInNode: self];
+        [mainUI touchesEnded:pos];
+    }
 }
+
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
     //for (UITouch *t in touches) {
     //    [self makeSpinnyAtPoint:[t locationInNode:self] color:[SKColor redColor]];

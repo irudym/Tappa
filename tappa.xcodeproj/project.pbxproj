@@ -23,6 +23,12 @@
 		788018B61FBF711A00011A18 /* TPEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 788018B41FBF711A00011A18 /* TPEmitter.m */; };
 		788018B81FBF84F900011A18 /* flower-r.png in Resources */ = {isa = PBXBuildFile; fileRef = 788018B71FBF84F900011A18 /* flower-r.png */; };
 		788018B91FBF84F900011A18 /* flower-r.png in Resources */ = {isa = PBXBuildFile; fileRef = 788018B71FBF84F900011A18 /* flower-r.png */; };
+		788A0F522002599C00844941 /* ui.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 788A0F512002599C00844941 /* ui.atlas */; };
+		788A0F532002599C00844941 /* ui.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 788A0F512002599C00844941 /* ui.atlas */; };
+		788A0F5820025A7800844941 /* UIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F5620025A7800844941 /* UIComponent.m */; };
+		788A0F5920025A7800844941 /* UIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F5620025A7800844941 /* UIComponent.m */; };
+		788A0F5C2008068700844941 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F5B2008068700844941 /* UI.m */; };
+		788A0F5D2008068700844941 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F5B2008068700844941 /* UI.m */; };
 		789E17D91FEEBD5700D1DBD2 /* TPDragonfly.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */; };
 		789E17DA1FEEBD5700D1DBD2 /* TPDragonfly.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */; };
 		78A541291FC4B7A6005F7D5E /* daisy.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A541281FC4B7A5005F7D5E /* daisy.png */; };
@@ -88,6 +94,12 @@
 		788018B31FBF711A00011A18 /* TPEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPEmitter.h; sourceTree = "<group>"; };
 		788018B41FBF711A00011A18 /* TPEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPEmitter.m; sourceTree = "<group>"; };
 		788018B71FBF84F900011A18 /* flower-r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower-r.png"; sourceTree = "<group>"; };
+		788A0F512002599C00844941 /* ui.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ui.atlas; sourceTree = "<group>"; };
+		788A0F5520025A3000844941 /* UIProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIProtocol.h; sourceTree = "<group>"; };
+		788A0F5620025A7800844941 /* UIComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIComponent.m; sourceTree = "<group>"; };
+		788A0F5720025A7800844941 /* UIComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIComponent.h; sourceTree = "<group>"; };
+		788A0F5A2008068700844941 /* UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
+		788A0F5B2008068700844941 /* UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI.m; sourceTree = "<group>"; };
 		789E17D71FEEBD5700D1DBD2 /* TPDragonfly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPDragonfly.h; sourceTree = "<group>"; };
 		789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPDragonfly.m; sourceTree = "<group>"; };
 		78A541281FC4B7A5005F7D5E /* daisy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daisy.png; sourceTree = "<group>"; };
@@ -177,6 +189,18 @@
 			path = particles;
 			sourceTree = "<group>";
 		};
+		788A0F54200259C200844941 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				788A0F5720025A7800844941 /* UIComponent.h */,
+				788A0F5620025A7800844941 /* UIComponent.m */,
+				788A0F5520025A3000844941 /* UIProtocol.h */,
+				788A0F5A2008068700844941 /* UI.h */,
+				788A0F5B2008068700844941 /* UI.m */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
 		78A5412E1FC4C337005F7D5E /* bugs */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +283,7 @@
 		78AE83911FADEC87003B1A34 /* game */ = {
 			isa = PBXGroup;
 			children = (
+				788A0F54200259C200844941 /* ui */,
 				78A5412E1FC4C337005F7D5E /* bugs */,
 				78CF8D281FB2065E00233F18 /* utils */,
 				78CF8D221FB2045600233F18 /* FSM */,
@@ -284,6 +309,7 @@
 		78AE839E1FAE23AE003B1A34 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				788A0F512002599C00844941 /* ui.atlas */,
 				78A541361FC5F3E6005F7D5E /* Bugs.atlas */,
 				78A541331FC5F34C005F7D5E /* Bugs@2x.atlas */,
 				788018A31FBE264400011A18 /* particles */,
@@ -416,6 +442,7 @@
 				78AE83811FADEB5D003B1A34 /* Actions.sks in Resources */,
 				788018B81FBF84F900011A18 /* flower-r.png in Resources */,
 				78AE836B1FADEB5D003B1A34 /* LaunchScreen.storyboard in Resources */,
+				788A0F522002599C00844941 /* ui.atlas in Resources */,
 				78AE83871FADEB5D003B1A34 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +460,7 @@
 				78AE83881FADEB5D003B1A34 /* Assets.xcassets in Resources */,
 				788018B21FBE2C6900011A18 /* Assets.xcassets in Resources */,
 				78A541351FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */,
+				788A0F532002599C00844941 /* ui.atlas in Resources */,
 				788018B91FBF84F900011A18 /* flower-r.png in Resources */,
 				78AE83821FADEB5D003B1A34 /* Actions.sks in Resources */,
 			);
@@ -448,8 +476,10 @@
 				78CF8D131FB0E71F00233F18 /* TPObject.m in Sources */,
 				78CF8D2B1FB2068C00233F18 /* Stack.m in Sources */,
 				78CF8D2F1FB214F800233F18 /* TPDieState.m in Sources */,
+				788A0F5C2008068700844941 /* UI.m in Sources */,
 				78A5413B1FC5FDC8005F7D5E /* TPRedFly.m in Sources */,
 				788018A11FBD910C00011A18 /* DebugNode.m in Sources */,
+				788A0F5820025A7800844941 /* UIComponent.m in Sources */,
 				78AE83651FADEB5D003B1A34 /* GameViewController.m in Sources */,
 				78AE836E1FADEB5D003B1A34 /* main.m in Sources */,
 				784817771FAF40860021D0FA /* BugsScene.m in Sources */,
@@ -476,8 +506,10 @@
 				78CF8D141FB0E71F00233F18 /* TPObject.m in Sources */,
 				78CF8D2C1FB2068C00233F18 /* Stack.m in Sources */,
 				78CF8D301FB214F800233F18 /* TPDieState.m in Sources */,
+				788A0F5D2008068700844941 /* UI.m in Sources */,
 				78A5413C1FC5FDC8005F7D5E /* TPRedFly.m in Sources */,
 				788018A21FBD910C00011A18 /* DebugNode.m in Sources */,
+				788A0F5920025A7800844941 /* UIComponent.m in Sources */,
 				78AE837A1FADEB5D003B1A34 /* GameViewController.m in Sources */,
 				78AE83801FADEB5D003B1A34 /* main.m in Sources */,
 				784817781FAF40860021D0FA /* BugsScene.m in Sources */,
