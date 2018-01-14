@@ -11,14 +11,21 @@
 
 @interface UIComponent : SKSpriteNode <UIProtocol>
 +(id) createWithTexture: (SKTexture*) texture;
++(id) createWithNode: (SKNode*) node;
+
+-(id) initWithNode: (SKSpriteNode*) node;
+
 -(void) performAction;
 -(void) onTouchDown:(CGPoint)mouse;
 -(void) onTouchUp:(CGPoint)mouse;
 // -(void) setAction: (void (^)(void))actionBlock;
 -(BOOL)isFocusable;
 
+-(void)reset;
+
 @property void (^action)(void);
 @property BOOL focusable;
 @property BOOL focus;
+@property CGPoint initialPosition;
 
 @end

@@ -17,6 +17,11 @@
 -(void)setFocusable: (BOOL)focus;
 -(BOOL)isFocusable;
 
+/**
+ *  set default texture and position
+ **/
+-(void)reset;
+
 @end
 
 

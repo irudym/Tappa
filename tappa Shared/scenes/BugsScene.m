@@ -10,7 +10,8 @@
 #import "../game/states/TPRunState.h"
 #import "TPBugGenerator.h"
 #import "../game/ui/UIComponent.h"
-#import "../game/ui/UI.h";
+#import "../game/ui/TPButton.h"
+#import "../game/ui/UI.h"
 
 #import "DebugNode.h"
 
@@ -75,15 +76,6 @@
     [TPSharedTextureAtlas loadAtlas:@"ui"];
 //#endif
     
-    /*
-    bug2 = [[TPBug alloc] initWithName:@"bug2" AndPosition:CGPointMake(0, 0)];
-    [bug2 setAngle:90];
-    [[bug2 stateMachine] pushState:[TPRunState createState]];
-    [bug2 setObjectSpeed:850.0f];
-    
-    [self addBug:bug2];
-     */
-    
     [self setMaximumBugs:4];
     
     // Get label node from scene and store it for use later
@@ -92,28 +84,18 @@
     //[_label runAction:[SKAction fadeInWithDuration:2.0]];
     
     //setup UI
-    SKTextureAtlas* uiAtlas = [TPSharedTextureAtlas getAtlasByName:@"ui"];
+    //SKTextureAtlas* uiAtlas = [TPSharedTextureAtlas getAtlasByName:@"ui"];
     
-    /*
-    UIComponent* homeButtonPosition = (UIComponent*)[self childNodeWithName:@"//homeButton"];
-    CGPoint buttonPos = CGPointMake(0, 0);
-    if(homeButtonPosition == nil) {
-        NSLog(@"Cannot find home button on the scene!");
-    } else {
-        buttonPos = homeButtonPosition.position;
-    }
-    UIComponent* homeButton = [UIComponent createWithTexture:[uiAtlas textureNamed:@"home-button.png"]];
-    [homeButton setPosition:buttonPos];
-    [self addChild:homeButton];
-     */
+
     mainUI = [[UI alloc] init];
-    UIComponent* homeButton = (UIComponent*)[self childNodeWithName:@"//homeButton"];
+    TPButton* homeButton = [[TPButton alloc] initWithNode: (SKSpriteNode*)[self childNodeWithName:@"//homeButton"]];
     if(homeButton == nil) {
         NSLog(@"Cannot find home button on the scene!");
+    } else {
+        [homeButton setFocusable:YES];
+        [homeButton setInitialPosition:homeButton.position];
+        [mainUI addChild:homeButton];
     }
-    [homeButton removeFromParent];
-    [homeButton setFocusable:YES];
-    [mainUI addChild:homeButton];
     
     [self addChild:mainUI];
     

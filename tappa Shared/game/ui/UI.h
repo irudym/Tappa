@@ -13,6 +13,8 @@
 
 -(id)init;
 
+-(void)addChild:(SKNode *)node;
+
 -(void)touchesBegan: (CGPoint)position;
 -(void)touchesEnded: (CGPoint)position;
 @end

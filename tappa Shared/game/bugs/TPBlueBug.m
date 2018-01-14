@@ -15,6 +15,7 @@
     TPBug* bug = [[TPBug alloc] initWithName:@"bug1" AndPosition: position];
     [bug setAngle: angle];
     [[bug stateMachine] pushState:[TPRunState createState]];
+    bug.zPosition = 1;
     return bug;
 }
 

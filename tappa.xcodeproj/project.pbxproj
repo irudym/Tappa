@@ -29,6 +29,8 @@
 		788A0F5920025A7800844941 /* UIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F5620025A7800844941 /* UIComponent.m */; };
 		788A0F5C2008068700844941 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F5B2008068700844941 /* UI.m */; };
 		788A0F5D2008068700844941 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F5B2008068700844941 /* UI.m */; };
+		788A0F6420093CE000844941 /* TPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F6320093CE000844941 /* TPButton.m */; };
+		788A0F6520093CE000844941 /* TPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F6320093CE000844941 /* TPButton.m */; };
 		789E17D91FEEBD5700D1DBD2 /* TPDragonfly.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */; };
 		789E17DA1FEEBD5700D1DBD2 /* TPDragonfly.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */; };
 		78A541291FC4B7A6005F7D5E /* daisy.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A541281FC4B7A5005F7D5E /* daisy.png */; };
@@ -100,6 +102,8 @@
 		788A0F5720025A7800844941 /* UIComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIComponent.h; sourceTree = "<group>"; };
 		788A0F5A2008068700844941 /* UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
 		788A0F5B2008068700844941 /* UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI.m; sourceTree = "<group>"; };
+		788A0F6220093CE000844941 /* TPButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPButton.h; sourceTree = "<group>"; };
+		788A0F6320093CE000844941 /* TPButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPButton.m; sourceTree = "<group>"; };
 		789E17D71FEEBD5700D1DBD2 /* TPDragonfly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPDragonfly.h; sourceTree = "<group>"; };
 		789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPDragonfly.m; sourceTree = "<group>"; };
 		78A541281FC4B7A5005F7D5E /* daisy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daisy.png; sourceTree = "<group>"; };
@@ -197,6 +201,8 @@
 				788A0F5520025A3000844941 /* UIProtocol.h */,
 				788A0F5A2008068700844941 /* UI.h */,
 				788A0F5B2008068700844941 /* UI.m */,
+				788A0F6220093CE000844941 /* TPButton.h */,
+				788A0F6320093CE000844941 /* TPButton.m */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -481,6 +487,7 @@
 				788018A11FBD910C00011A18 /* DebugNode.m in Sources */,
 				788A0F5820025A7800844941 /* UIComponent.m in Sources */,
 				78AE83651FADEB5D003B1A34 /* GameViewController.m in Sources */,
+				788A0F6420093CE000844941 /* TPButton.m in Sources */,
 				78AE836E1FADEB5D003B1A34 /* main.m in Sources */,
 				784817771FAF40860021D0FA /* BugsScene.m in Sources */,
 				788018B51FBF711A00011A18 /* TPEmitter.m in Sources */,
@@ -511,6 +518,7 @@
 				788018A21FBD910C00011A18 /* DebugNode.m in Sources */,
 				788A0F5920025A7800844941 /* UIComponent.m in Sources */,
 				78AE837A1FADEB5D003B1A34 /* GameViewController.m in Sources */,
+				788A0F6520093CE000844941 /* TPButton.m in Sources */,
 				78AE83801FADEB5D003B1A34 /* main.m in Sources */,
 				784817781FAF40860021D0FA /* BugsScene.m in Sources */,
 				788018B61FBF711A00011A18 /* TPEmitter.m in Sources */,

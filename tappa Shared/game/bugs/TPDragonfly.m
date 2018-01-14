@@ -17,6 +17,8 @@
     [bug setObjectSpeed:350.0f];
     
     [[bug stateMachine] pushState:[TPRunState createState]];
+    
+    bug.zPosition = 3;
     return bug;
 }
 

@@ -9,6 +9,9 @@
 #import "UIComponent.h"
 
 @implementation UIComponent
+{
+    SKTexture* initialTexture;
+}
 @synthesize focusable;
 @synthesize focus;
 
@@ -19,7 +22,28 @@
     return component;
 }
 
++(id) createWithNode:(SKSpriteNode *)node {
+
+    UIComponent* component = [[UIComponent alloc] initWithNode:node];
+    return component;
+}
+
+-(id) initWithNode: (SKSpriteNode*) node {
+    //remove the node from the scene as we expect to substite it with new created UIComponent
+    
+    [node removeFromParent];
+    self = [self initWithTexture:node.texture];
+    if(self == nil) return nil;
+    
+    self.position = node.position;
+    self.anchorPoint = node.anchorPoint;
+    
+    return self;
+}
+
+
 -(id) initWithTexture:(SKTexture *)texture {
+    NSLog(@"Call UIComponent::initWithTexture");
     self = [super initWithTexture:texture];
     if (self == nil) return nil;
     self.anchorPoint = CGPointMake(0.5, 0.5);
@@ -33,36 +57,38 @@
     self.colorBlendFactor = 0.0;
     self.focus = NO;
     self.focusable = NO;
+    initialTexture = texture;
     
+    return self;
+}
+
+- (instancetype)initWithImageNamed:(NSString *)name {
+    NSLog(@"Call UIComponent::initWithImageNamed: %@", name);
+    self = [super initWithImageNamed:name];
     return self;
 }
 
 -(void)performAction {
     self.action();
-    //CGPoint pos = self.position;
-    //[self setPosition:CGPointMake(pos.x-2, pos.y+2)];
 }
 
 -(void)onTouchDown:(CGPoint)mouse {
-    //NSLog(@"set blend mode");
-    //self.colorBlendFactor = 1;
-    CGPoint pos = self.position;
-    [self setPosition:CGPointMake(pos.x+2, pos.y-2)];
 }
 
 -(void)onTouchUp:(CGPoint)mouse {
-    CGPoint pos = self.position;
-    [self setPosition:CGPointMake(pos.x-2, pos.y+2)];
-    if(focusable) {
-        if(!focus) {
-            [self setFocus:true];
-            NSLog(@"Set focus!");
-        }
-    }
 }
 
 -(BOOL)isFocusable {
     return self.focusable;
+}
+
+-(void)reset {
+    [self removeAllActions];
+
+    [self setTexture:initialTexture];
+    [self setSize: [initialTexture size]];
+
+    self.position = self.initialPosition;
 }
 
 @end
