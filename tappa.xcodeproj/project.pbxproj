@@ -11,6 +11,12 @@
 		784817781FAF40860021D0FA /* BugsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 784817761FAF40860021D0FA /* BugsScene.m */; };
 		7848177B1FAF49B60021D0FA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7848177A1FAF448E0021D0FA /* GameScene.m */; };
 		7848177C1FAF49B60021D0FA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7848177A1FAF448E0021D0FA /* GameScene.m */; };
+		7865C8E4200B844F00A47FBD /* FreckleFace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7865C8E3200B844F00A47FBD /* FreckleFace-Regular.ttf */; };
+		7865C8E5200B844F00A47FBD /* FreckleFace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7865C8E3200B844F00A47FBD /* FreckleFace-Regular.ttf */; };
+		7865C8E7200B845B00A47FBD /* ConcertOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7865C8E6200B845B00A47FBD /* ConcertOne-Regular.ttf */; };
+		7865C8E8200B845B00A47FBD /* ConcertOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7865C8E6200B845B00A47FBD /* ConcertOne-Regular.ttf */; };
+		7865C8EA200B846C00A47FBD /* MysteryQuest-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7865C8E9200B846C00A47FBD /* MysteryQuest-Regular.ttf */; };
+		7865C8EB200B846C00A47FBD /* MysteryQuest-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7865C8E9200B846C00A47FBD /* MysteryQuest-Regular.ttf */; };
 		787059091FCF4FD400C22C4C /* TPBugGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 787059081FCF4FD400C22C4C /* TPBugGenerator.m */; };
 		7870590A1FCF4FD400C22C4C /* TPBugGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 787059081FCF4FD400C22C4C /* TPBugGenerator.m */; };
 		788018A11FBD910C00011A18 /* DebugNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 788018A01FBD910C00011A18 /* DebugNode.m */; };
@@ -87,6 +93,9 @@
 		784817761FAF40860021D0FA /* BugsScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugsScene.m; sourceTree = "<group>"; };
 		784817791FAF448E0021D0FA /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		7848177A1FAF448E0021D0FA /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		7865C8E3200B844F00A47FBD /* FreckleFace-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FreckleFace-Regular.ttf"; sourceTree = "<group>"; };
+		7865C8E6200B845B00A47FBD /* ConcertOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ConcertOne-Regular.ttf"; sourceTree = "<group>"; };
+		7865C8E9200B846C00A47FBD /* MysteryQuest-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MysteryQuest-Regular.ttf"; sourceTree = "<group>"; };
 		787059071FCF4FD400C22C4C /* TPBugGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPBugGenerator.h; sourceTree = "<group>"; };
 		787059081FCF4FD400C22C4C /* TPBugGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPBugGenerator.m; sourceTree = "<group>"; };
 		7880189F1FBD910C00011A18 /* DebugNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugNode.h; sourceTree = "<group>"; };
@@ -315,6 +324,9 @@
 		78AE839E1FAE23AE003B1A34 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				7865C8E3200B844F00A47FBD /* FreckleFace-Regular.ttf */,
+				7865C8E6200B845B00A47FBD /* ConcertOne-Regular.ttf */,
+				7865C8E9200B846C00A47FBD /* MysteryQuest-Regular.ttf */,
 				788A0F512002599C00844941 /* ui.atlas */,
 				78A541361FC5F3E6005F7D5E /* Bugs.atlas */,
 				78A541331FC5F34C005F7D5E /* Bugs@2x.atlas */,
@@ -439,10 +451,13 @@
 			files = (
 				78AE83831FADEB5D003B1A34 /* BugsScene.sks in Resources */,
 				78A541291FC4B7A6005F7D5E /* daisy.png in Resources */,
+				7865C8EA200B846C00A47FBD /* MysteryQuest-Regular.ttf in Resources */,
 				78A541371FC5F3E7005F7D5E /* Bugs.atlas in Resources */,
+				7865C8E4200B844F00A47FBD /* FreckleFace-Regular.ttf in Resources */,
 				788018A81FBE276800011A18 /* bug-tap.sks in Resources */,
 				78A5412C1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */,
 				788018B11FBE2C6900011A18 /* Assets.xcassets in Resources */,
+				7865C8E7200B845B00A47FBD /* ConcertOne-Regular.ttf in Resources */,
 				78AE83681FADEB5D003B1A34 /* Main.storyboard in Resources */,
 				78A541341FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */,
 				78AE83811FADEB5D003B1A34 /* Actions.sks in Resources */,
@@ -461,9 +476,12 @@
 				788018A91FBE276800011A18 /* bug-tap.sks in Resources */,
 				78AE837D1FADEB5D003B1A34 /* Main.storyboard in Resources */,
 				78A5412D1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */,
+				7865C8EB200B846C00A47FBD /* MysteryQuest-Regular.ttf in Resources */,
 				78AE83841FADEB5D003B1A34 /* BugsScene.sks in Resources */,
+				7865C8E8200B845B00A47FBD /* ConcertOne-Regular.ttf in Resources */,
 				78A541381FC5F3E7005F7D5E /* Bugs.atlas in Resources */,
 				78AE83881FADEB5D003B1A34 /* Assets.xcassets in Resources */,
+				7865C8E5200B844F00A47FBD /* FreckleFace-Regular.ttf in Resources */,
 				788018B21FBE2C6900011A18 /* Assets.xcassets in Resources */,
 				78A541351FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */,
 				788A0F532002599C00844941 /* ui.atlas in Resources */,

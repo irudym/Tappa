@@ -26,6 +26,9 @@
     CGSize bugSize;
     TPBugGenerator *bugGenerator;
     UI* mainUI;
+    
+    uint bugCount;
+    SKLabelNode* bugCountLabel;
 }
 
 @synthesize maximumBugs;
@@ -99,6 +102,11 @@
     
     [self addChild:mainUI];
     
+    bugCount = 0;
+    bugCountLabel = (SKLabelNode *)[self childNodeWithName:@"//bugCountLabel"];
+    [mainUI addChild:bugCountLabel];
+    [mainUI addChild:[self childNodeWithName:@"//bugsLabel"]];
+    
 #if TARGET_OS_WATCH
 #endif
     
@@ -119,6 +127,18 @@
     [_sceneObjects addObject:bug];
 }
 
+-(void) incBugCount {
+    bugCount++;
+    bugCountLabel.text = [NSString stringWithFormat:@"%d",bugCount];
+    
+    //increase amount of bugs on the scene
+    if (bugCount == 10) {
+        self.maximumBugs++;
+    }
+    if( bugCount == 20) {
+        self.maximumBugs++;
+    }
+}
 
 -(void)update:(CFTimeInterval)currentTime {
     
@@ -159,7 +179,7 @@
     
     //add new bugs
     //TODO: it could be implemented mutu-threaded, however it's a rare case when two or more bugs should be
-    //added to the scene
+    //added to the scene in the same time
     while(self.maximumBugs > self.sceneObjects.count) {
         [self generateBug];
     }
@@ -178,6 +198,9 @@
         if ([node.userData[@"type"] isEqualToString:@"bug"]) {
             TPBug* bug = (TPBug*)node;
             [bug handleEvent:[TPEvent createEventByType:EVENT_TAP]];
+            
+            //suppose an user catches a bug
+            [self incBugCount];
         }
     }
 }
