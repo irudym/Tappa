@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		628E51E82110ACB9004082E4 /* TPMaybug.m in Sources */ = {isa = PBXBuildFile; fileRef = 628E51E72110ACB9004082E4 /* TPMaybug.m */; };
+		628E51E92110ACB9004082E4 /* TPMaybug.m in Sources */ = {isa = PBXBuildFile; fileRef = 628E51E72110ACB9004082E4 /* TPMaybug.m */; };
+		628E51EB2110B4CE004082E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628E51EA2110B4CE004082E4 /* Images.xcassets */; };
 		784817771FAF40860021D0FA /* BugsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 784817761FAF40860021D0FA /* BugsScene.m */; };
 		784817781FAF40860021D0FA /* BugsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 784817761FAF40860021D0FA /* BugsScene.m */; };
 		7848177B1FAF49B60021D0FA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7848177A1FAF448E0021D0FA /* GameScene.m */; };
@@ -45,8 +48,6 @@
 		78A5412D1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78A5412B1FC4B7ED005F7D5E /* bug-tap2.sks */; };
 		78A541311FC4C355005F7D5E /* TPBlueBug.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A541301FC4C355005F7D5E /* TPBlueBug.m */; };
 		78A541321FC4C355005F7D5E /* TPBlueBug.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A541301FC4C355005F7D5E /* TPBlueBug.m */; };
-		78A541341FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78A541331FC5F34C005F7D5E /* Bugs@2x.atlas */; };
-		78A541351FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78A541331FC5F34C005F7D5E /* Bugs@2x.atlas */; };
 		78A541371FC5F3E7005F7D5E /* Bugs.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78A541361FC5F3E6005F7D5E /* Bugs.atlas */; };
 		78A541381FC5F3E7005F7D5E /* Bugs.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78A541361FC5F3E6005F7D5E /* Bugs.atlas */; };
 		78A5413B1FC5FDC8005F7D5E /* TPRedFly.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5413A1FC5FDC8005F7D5E /* TPRedFly.m */; };
@@ -89,6 +90,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		628E51E62110ACB9004082E4 /* TPMaybug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMaybug.h; sourceTree = "<group>"; };
+		628E51E72110ACB9004082E4 /* TPMaybug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPMaybug.m; sourceTree = "<group>"; };
+		628E51EA2110B4CE004082E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		784817751FAF40860021D0FA /* BugsScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsScene.h; sourceTree = "<group>"; };
 		784817761FAF40860021D0FA /* BugsScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugsScene.m; sourceTree = "<group>"; };
 		784817791FAF448E0021D0FA /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
@@ -119,7 +123,6 @@
 		78A5412B1FC4B7ED005F7D5E /* bug-tap2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "bug-tap2.sks"; sourceTree = "<group>"; };
 		78A5412F1FC4C355005F7D5E /* TPBlueBug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPBlueBug.h; sourceTree = "<group>"; };
 		78A541301FC4C355005F7D5E /* TPBlueBug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPBlueBug.m; sourceTree = "<group>"; };
-		78A541331FC5F34C005F7D5E /* Bugs@2x.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Bugs@2x.atlas"; sourceTree = "<group>"; };
 		78A541361FC5F3E6005F7D5E /* Bugs.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Bugs.atlas; sourceTree = "<group>"; };
 		78A541391FC5FDC8005F7D5E /* TPRedFly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPRedFly.h; sourceTree = "<group>"; };
 		78A5413A1FC5FDC8005F7D5E /* TPRedFly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPRedFly.m; sourceTree = "<group>"; };
@@ -225,6 +228,8 @@
 				78A5413A1FC5FDC8005F7D5E /* TPRedFly.m */,
 				789E17D71FEEBD5700D1DBD2 /* TPDragonfly.h */,
 				789E17D81FEEBD5700D1DBD2 /* TPDragonfly.m */,
+				628E51E62110ACB9004082E4 /* TPMaybug.h */,
+				628E51E72110ACB9004082E4 /* TPMaybug.m */,
 			);
 			path = bugs;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				78AE83691FADEB5D003B1A34 /* LaunchScreen.storyboard */,
 				78AE836C1FADEB5D003B1A34 /* Info.plist */,
 				78AE836D1FADEB5D003B1A34 /* main.m */,
+				628E51EA2110B4CE004082E4 /* Images.xcassets */,
 			);
 			path = "tappa iOS";
 			sourceTree = "<group>";
@@ -329,7 +335,6 @@
 				7865C8E9200B846C00A47FBD /* MysteryQuest-Regular.ttf */,
 				788A0F512002599C00844941 /* ui.atlas */,
 				78A541361FC5F3E6005F7D5E /* Bugs.atlas */,
-				78A541331FC5F34C005F7D5E /* Bugs@2x.atlas */,
 				788018A31FBE264400011A18 /* particles */,
 			);
 			name = resources;
@@ -450,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78AE83831FADEB5D003B1A34 /* BugsScene.sks in Resources */,
+				628E51EB2110B4CE004082E4 /* Images.xcassets in Resources */,
 				78A541291FC4B7A6005F7D5E /* daisy.png in Resources */,
 				7865C8EA200B846C00A47FBD /* MysteryQuest-Regular.ttf in Resources */,
 				78A541371FC5F3E7005F7D5E /* Bugs.atlas in Resources */,
@@ -459,7 +465,6 @@
 				788018B11FBE2C6900011A18 /* Assets.xcassets in Resources */,
 				7865C8E7200B845B00A47FBD /* ConcertOne-Regular.ttf in Resources */,
 				78AE83681FADEB5D003B1A34 /* Main.storyboard in Resources */,
-				78A541341FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */,
 				78AE83811FADEB5D003B1A34 /* Actions.sks in Resources */,
 				788018B81FBF84F900011A18 /* flower-r.png in Resources */,
 				78AE836B1FADEB5D003B1A34 /* LaunchScreen.storyboard in Resources */,
@@ -483,7 +488,6 @@
 				78AE83881FADEB5D003B1A34 /* Assets.xcassets in Resources */,
 				7865C8E5200B844F00A47FBD /* FreckleFace-Regular.ttf in Resources */,
 				788018B21FBE2C6900011A18 /* Assets.xcassets in Resources */,
-				78A541351FC5F34C005F7D5E /* Bugs@2x.atlas in Resources */,
 				788A0F532002599C00844941 /* ui.atlas in Resources */,
 				788018B91FBF84F900011A18 /* flower-r.png in Resources */,
 				78AE83821FADEB5D003B1A34 /* Actions.sks in Resources */,
@@ -505,6 +509,7 @@
 				788018A11FBD910C00011A18 /* DebugNode.m in Sources */,
 				788A0F5820025A7800844941 /* UIComponent.m in Sources */,
 				78AE83651FADEB5D003B1A34 /* GameViewController.m in Sources */,
+				628E51E82110ACB9004082E4 /* TPMaybug.m in Sources */,
 				788A0F6420093CE000844941 /* TPButton.m in Sources */,
 				78AE836E1FADEB5D003B1A34 /* main.m in Sources */,
 				784817771FAF40860021D0FA /* BugsScene.m in Sources */,
@@ -536,6 +541,7 @@
 				788018A21FBD910C00011A18 /* DebugNode.m in Sources */,
 				788A0F5920025A7800844941 /* UIComponent.m in Sources */,
 				78AE837A1FADEB5D003B1A34 /* GameViewController.m in Sources */,
+				628E51E92110ACB9004082E4 /* TPMaybug.m in Sources */,
 				788A0F6520093CE000844941 /* TPButton.m in Sources */,
 				78AE83801FADEB5D003B1A34 /* main.m in Sources */,
 				784817781FAF40860021D0FA /* BugsScene.m in Sources */,
@@ -686,6 +692,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T854R2JZ33;
@@ -703,6 +710,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T854R2JZ33;

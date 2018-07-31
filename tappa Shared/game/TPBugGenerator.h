@@ -12,6 +12,7 @@
 #import "bugs/TPBlueBug.h"
 #import "bugs/TPRedFly.h"
 #import "bugs/TPDragonfly.h"
+#import "bugs/TPMaybug.h"
 
 @interface TPBugGenerator : NSObject
 
@@ -20,6 +21,7 @@
 @property CGSize spriteSize;
 @property CGPoint leftBottomEdge;
 @property CGPoint rightTopEdge;
+@property uint maximumBugNumber;
 
 -(id) initWithScreenSize: (CGSize) screenSize andScreenAnchor: (CGPoint)anchor andSpriteSize: (CGSize) spriteSize;
 

@@ -186,21 +186,28 @@
 }
 
 -(void)generateBug {
+    // change maximum bug number to bring new bug on the screen
+    if(bugCount > 20) [bugGenerator setMaximumBugNumber:4];
+    else
+        if(bugCount > 10) [bugGenerator setMaximumBugNumber:3];
     TPBug *bug  = [bugGenerator generate];
     NSLog(@"Add new bug at position: (%f, %f) with angle: %f", bug.position.x, bug.position.y, bug.objectAngle);
     [self addBug:bug];
 }
 
 -(void) tapAtPoint: (CGPoint) point {
-    SKNode *node = [self nodeAtPoint:point];
-    if (node != nil) {
-        // NSLog(@"NODE user data: %@", node.userData[@"type"]);
-        if ([node.userData[@"type"] isEqualToString:@"bug"]) {
-            TPBug* bug = (TPBug*)node;
-            [bug handleEvent:[TPEvent createEventByType:EVENT_TAP]];
-            
-            //suppose an user catches a bug
-            [self incBugCount];
+    //TODO: return only one node at the tap point, thus it impossible to catch two or more bug in one tap
+    NSArray *nodes = [self nodesAtPoint:point];
+    for (SKNode* node in nodes) {
+        if (node != nil) {
+            // NSLog(@"NODE user data: %@", node.userData[@"type"]);
+            if ([node.userData[@"type"] isEqualToString:@"bug"]) {
+                TPBug* bug = (TPBug*)node;
+                [bug handleEvent:[TPEvent createEventByType:EVENT_TAP]];
+                
+                //suppose an user catches a bug
+                [self incBugCount];
+            }
         }
     }
 }

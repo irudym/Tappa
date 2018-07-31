@@ -10,6 +10,8 @@
 
 @implementation TPBugGenerator
 
+@synthesize maximumBugNumber;
+
 -(id) initWithScreenSize: (CGSize) screenSize andScreenAnchor: (CGPoint)screenAnchor andSpriteSize: (CGSize) spriteSize {
     self = [super init];
     if(self == nil) return nil;
@@ -22,6 +24,8 @@
     
     self.screenCenter = CGPointMake(screenSize.width*screenAnchor.x + self.leftBottomEdge.x,
     screenSize.height*screenAnchor.y + self.leftBottomEdge.y);
+    
+    [self setMaximumBugNumber:2];
     
     return self;
 }
@@ -73,7 +77,7 @@
     CGPoint position = [self getPositionByX:arc4random_uniform((int)(_screenSize.width + _spriteSize.height)) - _spriteSize.height/2+_leftBottomEdge.x];
     CGFloat angle = [self getAngleByPosition:position];
     //NSLog(@"Generate bug at position: (%f, %f) with angle: %f", position.x, position.y, angle);
-    NSUInteger bugId = arc4random_uniform(3);
+    NSUInteger bugId = arc4random_uniform([self maximumBugNumber]);
     switch(bugId) {
         case 0:
             bug = [TPBlueBug createBlueBugAtPosition:position andAngle:angle];
@@ -83,6 +87,9 @@
             break;
         case 2:
             bug = [TPDragonfly createDragonflyAtPosition:position andAngle:angle];
+            break;
+        case 3:
+            bug = [TPMaybug createMaybugAtPosition:position andAngle:angle];
             break;
     }
     return bug;
