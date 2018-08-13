@@ -7,6 +7,7 @@
 //
 
 #import "BugsScene.h"
+#import "MainMenuScene.h"
 #import "../game/states/TPRunState.h"
 #import "TPBugGenerator.h"
 #import "../game/ui/UIComponent.h"
@@ -98,6 +99,12 @@
         [homeButton setFocusable:YES];
         [homeButton setInitialPosition:homeButton.position];
         [mainUI addChild:homeButton];
+        [homeButton setAction:^{
+            NSLog(@"Switch back to main menu");
+            SKTransition *reveal = [SKTransition revealWithDirection:SKTransitionDirectionDown duration:0.5];
+            MainMenuScene *menuScene = [MainMenuScene newGameScene];
+            [self.scene.view presentScene: menuScene transition: reveal];
+        }];
     }
     
     [self addChild:mainUI];
@@ -196,7 +203,6 @@
 }
 
 -(void) tapAtPoint: (CGPoint) point {
-    //TODO: return only one node at the tap point, thus it impossible to catch two or more bug in one tap
     NSArray *nodes = [self nodesAtPoint:point];
     for (SKNode* node in nodes) {
         if (node != nil) {

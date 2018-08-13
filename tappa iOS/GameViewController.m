@@ -8,17 +8,22 @@
 
 #import "GameViewController.h"
 #import "BugsScene.h"
+#import "MainMenuScene.h"
 
 @implementation GameViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    BugsScene *scene = [BugsScene newGameScene];
+    //BugsScene *scene = [BugsScene newGameScene];
+    MainMenuScene *menuScene = [MainMenuScene newGameScene];
+    
     
     // Present the scene
     SKView *skView = (SKView *)self.view;
-    [skView presentScene:scene];
+    
+    // [skView presentScene:scene];
+    [skView presentScene:menuScene];
     
     skView.ignoresSiblingOrder = YES;
     skView.showsFPS = YES;

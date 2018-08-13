@@ -10,6 +10,10 @@
 		628E51E82110ACB9004082E4 /* TPMaybug.m in Sources */ = {isa = PBXBuildFile; fileRef = 628E51E72110ACB9004082E4 /* TPMaybug.m */; };
 		628E51E92110ACB9004082E4 /* TPMaybug.m in Sources */ = {isa = PBXBuildFile; fileRef = 628E51E72110ACB9004082E4 /* TPMaybug.m */; };
 		628E51EB2110B4CE004082E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628E51EA2110B4CE004082E4 /* Images.xcassets */; };
+		62FC7B5121130E7F008F5E08 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FC7B5021130E7F008F5E08 /* MainMenuScene.m */; };
+		62FC7B5221130E7F008F5E08 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FC7B5021130E7F008F5E08 /* MainMenuScene.m */; };
+		62FC7B5421130F1C008F5E08 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62FC7B5321130F1C008F5E08 /* MainMenuScene.sks */; };
+		62FC7B5521130F1C008F5E08 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62FC7B5321130F1C008F5E08 /* MainMenuScene.sks */; };
 		784817771FAF40860021D0FA /* BugsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 784817761FAF40860021D0FA /* BugsScene.m */; };
 		784817781FAF40860021D0FA /* BugsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 784817761FAF40860021D0FA /* BugsScene.m */; };
 		7848177B1FAF49B60021D0FA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7848177A1FAF448E0021D0FA /* GameScene.m */; };
@@ -93,6 +97,9 @@
 		628E51E62110ACB9004082E4 /* TPMaybug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMaybug.h; sourceTree = "<group>"; };
 		628E51E72110ACB9004082E4 /* TPMaybug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPMaybug.m; sourceTree = "<group>"; };
 		628E51EA2110B4CE004082E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62FC7B4F21130E7F008F5E08 /* MainMenuScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		62FC7B5021130E7F008F5E08 /* MainMenuScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
+		62FC7B5321130F1C008F5E08 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
 		784817751FAF40860021D0FA /* BugsScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsScene.h; sourceTree = "<group>"; };
 		784817761FAF40860021D0FA /* BugsScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugsScene.m; sourceTree = "<group>"; };
 		784817791FAF448E0021D0FA /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
@@ -192,6 +199,8 @@
 			children = (
 				784817751FAF40860021D0FA /* BugsScene.h */,
 				784817761FAF40860021D0FA /* BugsScene.m */,
+				62FC7B4F21130E7F008F5E08 /* MainMenuScene.h */,
+				62FC7B5021130E7F008F5E08 /* MainMenuScene.m */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -258,6 +267,7 @@
 				78AE83581FADEB5D003B1A34 /* Assets.xcassets */,
 				788018A71FBE276800011A18 /* bug-tap.sks */,
 				78A5412B1FC4B7ED005F7D5E /* bug-tap2.sks */,
+				62FC7B5321130F1C008F5E08 /* MainMenuScene.sks */,
 			);
 			path = "tappa Shared";
 			sourceTree = "<group>";
@@ -468,6 +478,7 @@
 				78AE83811FADEB5D003B1A34 /* Actions.sks in Resources */,
 				788018B81FBF84F900011A18 /* flower-r.png in Resources */,
 				78AE836B1FADEB5D003B1A34 /* LaunchScreen.storyboard in Resources */,
+				62FC7B5421130F1C008F5E08 /* MainMenuScene.sks in Resources */,
 				788A0F522002599C00844941 /* ui.atlas in Resources */,
 				78AE83871FADEB5D003B1A34 /* Assets.xcassets in Resources */,
 			);
@@ -481,6 +492,7 @@
 				788018A91FBE276800011A18 /* bug-tap.sks in Resources */,
 				78AE837D1FADEB5D003B1A34 /* Main.storyboard in Resources */,
 				78A5412D1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */,
+				62FC7B5521130F1C008F5E08 /* MainMenuScene.sks in Resources */,
 				7865C8EB200B846C00A47FBD /* MysteryQuest-Regular.ttf in Resources */,
 				78AE83841FADEB5D003B1A34 /* BugsScene.sks in Resources */,
 				7865C8E8200B845B00A47FBD /* ConcertOne-Regular.ttf in Resources */,
@@ -525,6 +537,7 @@
 				78CF8D261FB205D700233F18 /* FSMStackMachine.m in Sources */,
 				78AE83951FADED22003B1A34 /* TPBug.m in Sources */,
 				78CF8D331FB24B1800233F18 /* TPDeadState.m in Sources */,
+				62FC7B5121130E7F008F5E08 /* MainMenuScene.m in Sources */,
 				78CF8D1C1FB0EAE400233F18 /* TPRunState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,6 +570,7 @@
 				78CF8D271FB205D700233F18 /* FSMStackMachine.m in Sources */,
 				78AE83961FADED22003B1A34 /* TPBug.m in Sources */,
 				78CF8D341FB24B1800233F18 /* TPDeadState.m in Sources */,
+				62FC7B5221130E7F008F5E08 /* MainMenuScene.m in Sources */,
 				78CF8D1D1FB0EAE400233F18 /* TPRunState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
