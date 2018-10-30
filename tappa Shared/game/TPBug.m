@@ -99,6 +99,9 @@
     
     //play die animation
     [self runAction: [SKAction fadeOutWithDuration:1.0] withKey:@"dying"];
+    
+    //play sound
+    [self runAction:[SKAction playSoundFileNamed: [self soundName] waitForCompletion: NO]];
 }
 
 @end

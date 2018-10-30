@@ -73,11 +73,15 @@
 }
 
 -(TPBug*) generate {
+    NSUInteger bugId = arc4random_uniform([self maximumBugNumber]);
+
+    return [self generateById:bugId];
+}
+
+-(TPBug*) generateById: (NSUInteger)bugId {
     TPBug* bug = nil;
     CGPoint position = [self getPositionByX:arc4random_uniform((int)(_screenSize.width + _spriteSize.height)) - _spriteSize.height/2+_leftBottomEdge.x];
     CGFloat angle = [self getAngleByPosition:position];
-    //NSLog(@"Generate bug at position: (%f, %f) with angle: %f", position.x, position.y, angle);
-    NSUInteger bugId = arc4random_uniform([self maximumBugNumber]);
     switch(bugId) {
         case 0:
             bug = [TPBlueBug createBlueBugAtPosition:position andAngle:angle];

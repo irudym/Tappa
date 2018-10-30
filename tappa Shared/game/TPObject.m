@@ -85,4 +85,14 @@
     return CGVectorMake(x*cosf(angle) - y*sinf(angle), x*sinf(angle) + y*cosf(angle));
 }
 
+//Deprecate?
+-(void)addSoundNamed:(NSString *)name {
+    //SKAudioNode* sound = [[SKAudioNode alloc] initWithFileNamed:name];
+    // [sound runAction:[SKAction stop]];
+    //[self addChild:sound];
+    
+    //return sound;
+    [self setSoundName:name];
+}
+
 @end

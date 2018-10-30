@@ -18,6 +18,9 @@
     [[bug stateMachine] pushState:[TPRunState createState]];
     
     bug.zPosition = 1;  // should be on ground, however could overlap with others bugs
+    
+    [bug addSoundNamed:@"bell4"];
+    
     return bug;
 }
 

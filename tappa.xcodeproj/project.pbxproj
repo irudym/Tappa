@@ -7,9 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6210D4172180C56000F0D8BD /* guitar2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6210D4142180C56000F0D8BD /* guitar2.wav */; };
+		6210D4182180C56000F0D8BD /* guitar2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6210D4142180C56000F0D8BD /* guitar2.wav */; };
+		6210D4192180C56000F0D8BD /* guitar3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6210D4152180C56000F0D8BD /* guitar3.wav */; };
+		6210D41A2180C56000F0D8BD /* guitar3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6210D4152180C56000F0D8BD /* guitar3.wav */; };
+		6210D41B2180C56000F0D8BD /* guitar1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6210D4162180C56000F0D8BD /* guitar1.wav */; };
+		6210D41C2180C56000F0D8BD /* guitar1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6210D4162180C56000F0D8BD /* guitar1.wav */; };
+		6258BF5521820F2700CD387F /* bell1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6258BF5221820F2700CD387F /* bell1.wav */; };
+		6258BF5621820F2700CD387F /* bell1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6258BF5221820F2700CD387F /* bell1.wav */; };
+		6258BF5721820F2700CD387F /* bell2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6258BF5321820F2700CD387F /* bell2.wav */; };
+		6258BF5821820F2700CD387F /* bell2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6258BF5321820F2700CD387F /* bell2.wav */; };
+		6258BF5921820F2700CD387F /* bell3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6258BF5421820F2700CD387F /* bell3.wav */; };
+		6258BF5A21820F2700CD387F /* bell3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6258BF5421820F2700CD387F /* bell3.wav */; };
 		628E51E82110ACB9004082E4 /* TPMaybug.m in Sources */ = {isa = PBXBuildFile; fileRef = 628E51E72110ACB9004082E4 /* TPMaybug.m */; };
 		628E51E92110ACB9004082E4 /* TPMaybug.m in Sources */ = {isa = PBXBuildFile; fileRef = 628E51E72110ACB9004082E4 /* TPMaybug.m */; };
 		628E51EB2110B4CE004082E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628E51EA2110B4CE004082E4 /* Images.xcassets */; };
+		62B4196C21821D63002024A2 /* TPBugSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B4196B21821D63002024A2 /* TPBugSequence.m */; };
+		62B4196D21821D63002024A2 /* TPBugSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B4196B21821D63002024A2 /* TPBugSequence.m */; };
+		62B4197021821E23002024A2 /* TPSequenceStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B4196F21821E23002024A2 /* TPSequenceStep.m */; };
+		62B4197121821E23002024A2 /* TPSequenceStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B4196F21821E23002024A2 /* TPSequenceStep.m */; };
+		62B419732183B30F002024A2 /* song.wav in Resources */ = {isa = PBXBuildFile; fileRef = 62B419722183B30E002024A2 /* song.wav */; };
+		62B419742183B30F002024A2 /* song.wav in Resources */ = {isa = PBXBuildFile; fileRef = 62B419722183B30E002024A2 /* song.wav */; };
+		62B419762183B328002024A2 /* bell4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 62B419752183B328002024A2 /* bell4.wav */; };
+		62B419772183B328002024A2 /* bell4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 62B419752183B328002024A2 /* bell4.wav */; };
 		62FC7B5121130E7F008F5E08 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FC7B5021130E7F008F5E08 /* MainMenuScene.m */; };
 		62FC7B5221130E7F008F5E08 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FC7B5021130E7F008F5E08 /* MainMenuScene.m */; };
 		62FC7B5421130F1C008F5E08 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62FC7B5321130F1C008F5E08 /* MainMenuScene.sks */; };
@@ -94,9 +114,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6210D4142180C56000F0D8BD /* guitar2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitar2.wav; sourceTree = "<group>"; };
+		6210D4152180C56000F0D8BD /* guitar3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitar3.wav; sourceTree = "<group>"; };
+		6210D4162180C56000F0D8BD /* guitar1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitar1.wav; sourceTree = "<group>"; };
+		6258BF5221820F2700CD387F /* bell1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell1.wav; sourceTree = "<group>"; };
+		6258BF5321820F2700CD387F /* bell2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell2.wav; sourceTree = "<group>"; };
+		6258BF5421820F2700CD387F /* bell3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell3.wav; sourceTree = "<group>"; };
 		628E51E62110ACB9004082E4 /* TPMaybug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMaybug.h; sourceTree = "<group>"; };
 		628E51E72110ACB9004082E4 /* TPMaybug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPMaybug.m; sourceTree = "<group>"; };
 		628E51EA2110B4CE004082E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62B4196A21821D62002024A2 /* TPBugSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPBugSequence.h; sourceTree = "<group>"; };
+		62B4196B21821D63002024A2 /* TPBugSequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPBugSequence.m; sourceTree = "<group>"; };
+		62B4196E21821E23002024A2 /* TPSequenceStep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPSequenceStep.h; sourceTree = "<group>"; };
+		62B4196F21821E23002024A2 /* TPSequenceStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPSequenceStep.m; sourceTree = "<group>"; };
+		62B419722183B30E002024A2 /* song.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = song.wav; sourceTree = "<group>"; };
+		62B419752183B328002024A2 /* bell4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell4.wav; sourceTree = "<group>"; };
 		62FC7B4F21130E7F008F5E08 /* MainMenuScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
 		62FC7B5021130E7F008F5E08 /* MainMenuScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
 		62FC7B5321130F1C008F5E08 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
@@ -333,6 +365,10 @@
 				788018B41FBF711A00011A18 /* TPEmitter.m */,
 				787059071FCF4FD400C22C4C /* TPBugGenerator.h */,
 				787059081FCF4FD400C22C4C /* TPBugGenerator.m */,
+				62B4196A21821D62002024A2 /* TPBugSequence.h */,
+				62B4196B21821D63002024A2 /* TPBugSequence.m */,
+				62B4196E21821E23002024A2 /* TPSequenceStep.h */,
+				62B4196F21821E23002024A2 /* TPSequenceStep.m */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -343,6 +379,14 @@
 				7865C8E3200B844F00A47FBD /* FreckleFace-Regular.ttf */,
 				7865C8E6200B845B00A47FBD /* ConcertOne-Regular.ttf */,
 				7865C8E9200B846C00A47FBD /* MysteryQuest-Regular.ttf */,
+				6210D4162180C56000F0D8BD /* guitar1.wav */,
+				6210D4142180C56000F0D8BD /* guitar2.wav */,
+				62B419722183B30E002024A2 /* song.wav */,
+				62B419752183B328002024A2 /* bell4.wav */,
+				6210D4152180C56000F0D8BD /* guitar3.wav */,
+				6258BF5221820F2700CD387F /* bell1.wav */,
+				6258BF5321820F2700CD387F /* bell2.wav */,
+				6258BF5421820F2700CD387F /* bell3.wav */,
 				788A0F512002599C00844941 /* ui.atlas */,
 				78A541361FC5F3E6005F7D5E /* Bugs.atlas */,
 				788018A31FBE264400011A18 /* particles */,
@@ -467,17 +511,25 @@
 				78AE83831FADEB5D003B1A34 /* BugsScene.sks in Resources */,
 				628E51EB2110B4CE004082E4 /* Images.xcassets in Resources */,
 				78A541291FC4B7A6005F7D5E /* daisy.png in Resources */,
+				62B419732183B30F002024A2 /* song.wav in Resources */,
 				7865C8EA200B846C00A47FBD /* MysteryQuest-Regular.ttf in Resources */,
 				78A541371FC5F3E7005F7D5E /* Bugs.atlas in Resources */,
 				7865C8E4200B844F00A47FBD /* FreckleFace-Regular.ttf in Resources */,
+				6210D4192180C56000F0D8BD /* guitar3.wav in Resources */,
 				788018A81FBE276800011A18 /* bug-tap.sks in Resources */,
 				78A5412C1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */,
 				788018B11FBE2C6900011A18 /* Assets.xcassets in Resources */,
 				7865C8E7200B845B00A47FBD /* ConcertOne-Regular.ttf in Resources */,
 				78AE83681FADEB5D003B1A34 /* Main.storyboard in Resources */,
+				6258BF5921820F2700CD387F /* bell3.wav in Resources */,
 				78AE83811FADEB5D003B1A34 /* Actions.sks in Resources */,
 				788018B81FBF84F900011A18 /* flower-r.png in Resources */,
+				6258BF5721820F2700CD387F /* bell2.wav in Resources */,
+				6210D4172180C56000F0D8BD /* guitar2.wav in Resources */,
+				6258BF5521820F2700CD387F /* bell1.wav in Resources */,
 				78AE836B1FADEB5D003B1A34 /* LaunchScreen.storyboard in Resources */,
+				6210D41B2180C56000F0D8BD /* guitar1.wav in Resources */,
+				62B419762183B328002024A2 /* bell4.wav in Resources */,
 				62FC7B5421130F1C008F5E08 /* MainMenuScene.sks in Resources */,
 				788A0F522002599C00844941 /* ui.atlas in Resources */,
 				78AE83871FADEB5D003B1A34 /* Assets.xcassets in Resources */,
@@ -491,17 +543,25 @@
 				78A5412A1FC4B7A6005F7D5E /* daisy.png in Resources */,
 				788018A91FBE276800011A18 /* bug-tap.sks in Resources */,
 				78AE837D1FADEB5D003B1A34 /* Main.storyboard in Resources */,
+				62B419742183B30F002024A2 /* song.wav in Resources */,
 				78A5412D1FC4B7EE005F7D5E /* bug-tap2.sks in Resources */,
 				62FC7B5521130F1C008F5E08 /* MainMenuScene.sks in Resources */,
+				6210D4182180C56000F0D8BD /* guitar2.wav in Resources */,
 				7865C8EB200B846C00A47FBD /* MysteryQuest-Regular.ttf in Resources */,
 				78AE83841FADEB5D003B1A34 /* BugsScene.sks in Resources */,
 				7865C8E8200B845B00A47FBD /* ConcertOne-Regular.ttf in Resources */,
+				62B419772183B328002024A2 /* bell4.wav in Resources */,
+				6258BF5A21820F2700CD387F /* bell3.wav in Resources */,
 				78A541381FC5F3E7005F7D5E /* Bugs.atlas in Resources */,
+				6258BF5821820F2700CD387F /* bell2.wav in Resources */,
 				78AE83881FADEB5D003B1A34 /* Assets.xcassets in Resources */,
+				6258BF5621820F2700CD387F /* bell1.wav in Resources */,
 				7865C8E5200B844F00A47FBD /* FreckleFace-Regular.ttf in Resources */,
 				788018B21FBE2C6900011A18 /* Assets.xcassets in Resources */,
 				788A0F532002599C00844941 /* ui.atlas in Resources */,
 				788018B91FBF84F900011A18 /* flower-r.png in Resources */,
+				6210D41A2180C56000F0D8BD /* guitar3.wav in Resources */,
+				6210D41C2180C56000F0D8BD /* guitar1.wav in Resources */,
 				78AE83821FADEB5D003B1A34 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +579,7 @@
 				788A0F5C2008068700844941 /* UI.m in Sources */,
 				78A5413B1FC5FDC8005F7D5E /* TPRedFly.m in Sources */,
 				788018A11FBD910C00011A18 /* DebugNode.m in Sources */,
+				62B4196C21821D63002024A2 /* TPBugSequence.m in Sources */,
 				788A0F5820025A7800844941 /* UIComponent.m in Sources */,
 				78AE83651FADEB5D003B1A34 /* GameViewController.m in Sources */,
 				628E51E82110ACB9004082E4 /* TPMaybug.m in Sources */,
@@ -536,6 +597,7 @@
 				78AE83991FADEF33003B1A34 /* TPSharedTextureAtlas.m in Sources */,
 				78CF8D261FB205D700233F18 /* FSMStackMachine.m in Sources */,
 				78AE83951FADED22003B1A34 /* TPBug.m in Sources */,
+				62B4197021821E23002024A2 /* TPSequenceStep.m in Sources */,
 				78CF8D331FB24B1800233F18 /* TPDeadState.m in Sources */,
 				62FC7B5121130E7F008F5E08 /* MainMenuScene.m in Sources */,
 				78CF8D1C1FB0EAE400233F18 /* TPRunState.m in Sources */,
@@ -552,6 +614,7 @@
 				788A0F5D2008068700844941 /* UI.m in Sources */,
 				78A5413C1FC5FDC8005F7D5E /* TPRedFly.m in Sources */,
 				788018A21FBD910C00011A18 /* DebugNode.m in Sources */,
+				62B4196D21821D63002024A2 /* TPBugSequence.m in Sources */,
 				788A0F5920025A7800844941 /* UIComponent.m in Sources */,
 				78AE837A1FADEB5D003B1A34 /* GameViewController.m in Sources */,
 				628E51E92110ACB9004082E4 /* TPMaybug.m in Sources */,
@@ -569,6 +632,7 @@
 				78AE839A1FADEF33003B1A34 /* TPSharedTextureAtlas.m in Sources */,
 				78CF8D271FB205D700233F18 /* FSMStackMachine.m in Sources */,
 				78AE83961FADED22003B1A34 /* TPBug.m in Sources */,
+				62B4197121821E23002024A2 /* TPSequenceStep.m in Sources */,
 				78CF8D341FB24B1800233F18 /* TPDeadState.m in Sources */,
 				62FC7B5221130E7F008F5E08 /* MainMenuScene.m in Sources */,
 				78CF8D1D1FB0EAE400233F18 /* TPRunState.m in Sources */,

@@ -16,6 +16,7 @@
 @property CGFloat objectSpeed;
 @property BOOL deadMark;
 @property CGFloat objectAngle;
+@property NSString* soundName;
 
 //stateMachine
 @property FSMStackMachine* stateMachine;
@@ -43,6 +44,9 @@
 
 //utils
 -(BOOL) isDead;
+
+//sounds
+-(void) addSoundNamed: (NSString*)name;
 
 
 @end

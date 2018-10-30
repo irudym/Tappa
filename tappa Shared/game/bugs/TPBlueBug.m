@@ -16,6 +16,10 @@
     [bug setAngle: angle];
     [[bug stateMachine] pushState:[TPRunState createState]];
     bug.zPosition = 1;
+    
+    [bug addSoundNamed:@"bell1"];
+    
+    
     return bug;
 }
 

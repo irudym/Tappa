@@ -13,6 +13,8 @@
 #import "../game/ui/UIComponent.h"
 #import "../game/ui/TPButton.h"
 #import "../game/ui/UI.h"
+#import "TPBugSequence.h"
+#import "TPSequenceStep.h"
 
 #import "DebugNode.h"
 
@@ -30,6 +32,7 @@
     
     uint bugCount;
     SKLabelNode* bugCountLabel;
+    TPBugSequence *bugSequence;
 }
 
 @synthesize maximumBugs;
@@ -114,6 +117,28 @@
     [mainUI addChild:bugCountLabel];
     [mainUI addChild:[self childNodeWithName:@"//bugsLabel"]];
     
+    //Init a simple siquence - jingle bells
+    bugSequence = [[TPBugSequence alloc] init];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"blue_bug" andDuration:100]];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"may_bug" andDuration:50]];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"dragonfly" andDuration:50]];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"red_fly" andDuration:50]];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"blue_bug" andDuration:50]];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"blue_bug" andDuration:100]];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"blue_bug" andDuration:50]];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"blue_bug" andDuration:50]];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"blue_bug" andDuration:100]];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"blue_bug" andDuration:50]];
+    [bugSequence pushObject:[TPSequenceStep createWithName:@"blue_bug" andDuration:50]];
+    
+    [self addBugFromSequence];
+    
+    
+    // add background music
+    SKAudioNode *music = [[SKAudioNode alloc] initWithFileNamed:@"song"];
+    [music runAction:[SKAction changeVolumeBy:-0.4 duration:0]];
+    [self addChild:music];
+    
 #if TARGET_OS_WATCH
 #endif
     
@@ -145,6 +170,19 @@
     if( bugCount == 20) {
         self.maximumBugs++;
     }
+}
+
+-(NSUInteger) getIdFromName: (NSString*)name {
+    if([name isEqualToString:@"blue_bug"]) return 0;
+    if([name isEqualToString:@"red_fly"]) return 1;
+    if([name isEqualToString:@"dragonfly"]) return 2;
+    if([name isEqualToString:@"may_bug"]) return 3;
+    return 0;
+}
+-(void) addBugFromSequence {
+    TPSequenceStep* step = [bugSequence peekObject];
+    TPBug* bug = [bugGenerator generateById:[self getIdFromName:[step bugName]]];
+    [self addBug:bug];
 }
 
 -(void)update:(CFTimeInterval)currentTime {
@@ -185,6 +223,16 @@
     if ([deadIndexes count] >0) [self.sceneObjects removeObjectsAtIndexes: deadIndexes];
     
     //add new bugs
+    
+    if(!bugSequence.empty && self.sceneObjects.count < self.maximumBugs) {
+        // add a bug from the sequence
+        if([bugSequence decreaseCurrentDuration] < 0) {
+            //add next bug to the scene
+            [bugSequence popObject];
+            [self addBugFromSequence];
+        }
+        return;
+    }
     //TODO: it could be implemented mutu-threaded, however it's a rare case when two or more bugs should be
     //added to the scene in the same time
     while(self.maximumBugs > self.sceneObjects.count) {

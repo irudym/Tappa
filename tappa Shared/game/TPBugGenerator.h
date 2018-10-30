@@ -29,5 +29,6 @@
 -(CGFloat) getAngleByPosition: (CGPoint) position;
 
 -(TPBug*) generate;
+-(TPBug*) generateById: (NSUInteger)bugId;
 
 @end

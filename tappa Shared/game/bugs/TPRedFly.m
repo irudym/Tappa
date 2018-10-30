@@ -18,6 +18,9 @@
     
     [[bug stateMachine] pushState:[TPRunState createState]];
     bug.zPosition = 2;
+    
+    [bug addSoundNamed:@"bell2"];
+    
     return bug;
 }
 
